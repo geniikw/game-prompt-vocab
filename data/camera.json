@@ -1,0 +1,575 @@
+[
+  {
+    "id": "camera-dolly-in",
+    "deck": "camera",
+    "term": "달리 인",
+    "en": "Dolly In",
+    "definition": "카메라 자체가 피사체 쪽으로 다가가는 이동. 긴장감·집중을 높인다.",
+    "example": "공주 기사의 결의에 찬 얼굴로 천천히 달리 인",
+    "tags": [
+      "카메라 이동"
+    ],
+    "aliases": [
+      "푸시 인(Push In)",
+      "트랙 인"
+    ]
+  },
+  {
+    "id": "camera-dolly-out",
+    "deck": "camera",
+    "term": "달리 아웃",
+    "en": "Dolly Out",
+    "definition": "카메라가 피사체에게서 물러나는 이동. 고립감이나 전체 상황을 드러낸다.",
+    "example": "쓰러진 적들 사이에 홀로 선 메이드 검사에서 달리 아웃, 전장 전체가 드러남",
+    "tags": [
+      "카메라 이동"
+    ],
+    "aliases": [
+      "풀 아웃(Pull Out)",
+      "트랙 아웃"
+    ]
+  },
+  {
+    "id": "camera-truck",
+    "deck": "camera",
+    "term": "트럭",
+    "en": "Truck",
+    "definition": "카메라가 좌우로 평행 이동하는 것. 옆으로 달리는 캐릭터를 따라갈 때.",
+    "example": "달리는 캐릭터를 옆에서 트럭으로 따라가며 배경이 빠르게 흐른다",
+    "tags": [
+      "카메라 이동"
+    ],
+    "aliases": [
+      "트래킹",
+      "사이드 트래킹",
+      "트럭 레프트/라이트"
+    ]
+  },
+  {
+    "id": "camera-pan",
+    "deck": "camera",
+    "term": "팬",
+    "en": "Pan",
+    "definition": "카메라 위치는 고정하고 좌우로 고개를 돌리는 회전.",
+    "example": "아군 진영에서 적 진영으로 천천히 팬해서 병력 차이를 보여준다",
+    "tags": [
+      "카메라 이동"
+    ],
+    "aliases": [
+      "패닝",
+      "팬 레프트/라이트"
+    ]
+  },
+  {
+    "id": "camera-tilt",
+    "deck": "camera",
+    "term": "틸트",
+    "en": "Tilt",
+    "definition": "카메라 위치는 고정하고 위아래로 고개를 끄덕이는 회전.",
+    "example": "보스의 발에서 얼굴까지 틸트 업으로 거대함을 강조",
+    "tags": [
+      "카메라 이동"
+    ],
+    "aliases": [
+      "틸트 업/다운"
+    ]
+  },
+  {
+    "id": "camera-crane",
+    "deck": "camera",
+    "term": "크레인",
+    "en": "Crane",
+    "definition": "카메라가 수직으로 올라가거나 내려오는 이동.",
+    "example": "전투 승리 후 크레인 업으로 캐릭터에서 하늘 쪽으로 올라가며 엔딩",
+    "tags": [
+      "카메라 이동"
+    ],
+    "aliases": [
+      "붐(Boom)",
+      "페데스탈",
+      "크레인 업/다운"
+    ]
+  },
+  {
+    "id": "camera-arc-shot",
+    "deck": "camera",
+    "term": "아크 샷",
+    "en": "Arc Shot",
+    "definition": "피사체를 중심으로 원을 그리며 도는 카메라. 영웅적 순간·변신 장면에 쓴다.",
+    "example": "필살기 발동 시 캐릭터 주위를 아크 샷으로 반 바퀴 돌며 기를 모으는 장면",
+    "tags": [
+      "카메라 이동"
+    ],
+    "aliases": [
+      "오빗(Orbit)",
+      "360도 회전 샷",
+      "서클 트래킹"
+    ]
+  },
+  {
+    "id": "camera-zoom",
+    "deck": "camera",
+    "term": "줌",
+    "en": "Zoom",
+    "definition": "카메라는 그대로 두고 렌즈 화각만 바꿔 확대/축소. 달리와 달리 원근감이 변하지 않는다.",
+    "example": "적의 놀란 표정으로 빠른 줌 인, 만화 같은 코믹 연출",
+    "tags": [
+      "카메라 이동"
+    ],
+    "aliases": [
+      "줌 인/아웃"
+    ]
+  },
+  {
+    "id": "camera-dolly-zoom",
+    "deck": "camera",
+    "term": "달리 줌",
+    "en": "Dolly Zoom",
+    "definition": "달리 아웃과 줌 인을 동시에 해 피사체 크기는 그대로, 배경만 늘어나는 기묘한 효과.",
+    "example": "배신을 깨닫는 순간 공주 기사에게 달리 줌, 배경이 뒤로 쭉 늘어난다",
+    "tags": [
+      "카메라 이동"
+    ],
+    "aliases": [
+      "버티고 효과",
+      "히치콕 줌",
+      "트롬보네 샷"
+    ]
+  },
+  {
+    "id": "camera-follow-cam",
+    "deck": "camera",
+    "term": "팔로우 캠",
+    "en": "Follow Cam",
+    "definition": "움직이는 피사체를 일정 거리에서 따라가는 카메라.",
+    "example": "돌진하는 메이드 검사를 등 뒤에서 팔로우 캠으로 따라간다",
+    "tags": [
+      "카메라 이동"
+    ],
+    "aliases": [
+      "추적 카메라",
+      "팔로우 샷"
+    ]
+  },
+  {
+    "id": "camera-handheld",
+    "deck": "camera",
+    "term": "핸드헬드",
+    "en": "Handheld",
+    "definition": "손으로 든 듯 미세하게 흔들리는 카메라. 현장감·긴박감.",
+    "example": "혼란스러운 난전 장면을 핸드헬드 느낌으로 살짝 흔들리게",
+    "tags": [
+      "카메라 이동"
+    ],
+    "aliases": [
+      "들고 찍기",
+      "흔들리는 카메라"
+    ]
+  },
+  {
+    "id": "camera-rack-focus",
+    "deck": "camera",
+    "term": "랙 포커스",
+    "en": "Rack Focus",
+    "definition": "한 샷 안에서 초점을 앞 피사체에서 뒤 피사체로(또는 반대로) 옮기는 것.",
+    "example": "앞의 칼날에서 뒤의 적 얼굴로 랙 포커스",
+    "tags": [
+      "카메라 이동"
+    ],
+    "aliases": [
+      "포커스 풀",
+      "초점 이동"
+    ]
+  },
+  {
+    "id": "camera-eye-level",
+    "deck": "camera",
+    "term": "아이 레벨",
+    "en": "Eye Level",
+    "definition": "캐릭터 눈높이에서 찍는 중립적인 앵글.",
+    "example": "대화 장면은 아이 레벨로 두 캐릭터를 평등하게",
+    "tags": [
+      "앵글"
+    ],
+    "aliases": [
+      "눈높이 샷"
+    ]
+  },
+  {
+    "id": "camera-low-angle",
+    "deck": "camera",
+    "term": "로우 앵글",
+    "en": "Low Angle",
+    "definition": "아래에서 위로 올려다보는 앵글. 피사체가 강하고 위압적으로 보인다.",
+    "example": "보스 등장을 로우 앵글로 잡아 거대하고 위압적으로",
+    "tags": [
+      "앵글"
+    ],
+    "aliases": [
+      "앙각",
+      "올려찍기"
+    ]
+  },
+  {
+    "id": "camera-high-angle",
+    "deck": "camera",
+    "term": "하이 앵글",
+    "en": "High Angle",
+    "definition": "위에서 아래로 내려다보는 앵글. 피사체가 약하거나 작아 보인다.",
+    "example": "패배한 캐릭터가 무릎 꿇은 모습을 하이 앵글로",
+    "tags": [
+      "앵글"
+    ],
+    "aliases": [
+      "부감",
+      "내려찍기"
+    ]
+  },
+  {
+    "id": "camera-birds-eye-view",
+    "deck": "camera",
+    "term": "버즈아이 뷰",
+    "en": "Bird's-eye View",
+    "definition": "바로 위에서 수직으로 내려다보는 앵글. 진형·배치를 보여줄 때.",
+    "example": "전투 시작 전 버즈아이 뷰로 아군과 적의 진형 배치를 보여준다",
+    "tags": [
+      "앵글"
+    ],
+    "aliases": [
+      "탑뷰",
+      "오버헤드 샷",
+      "부감 수직"
+    ]
+  },
+  {
+    "id": "camera-worms-eye-view",
+    "deck": "camera",
+    "term": "웜즈아이 뷰",
+    "en": "Worm's-eye View",
+    "definition": "바닥에서 거의 수직으로 올려다보는 극단적 앵글.",
+    "example": "쓰러진 적의 시점에서 웜즈아이 뷰로 칼을 내리꽂는 주인공",
+    "tags": [
+      "앵글"
+    ],
+    "aliases": [
+      "극단적 로우 앵글"
+    ]
+  },
+  {
+    "id": "camera-dutch-angle",
+    "deck": "camera",
+    "term": "더치 앵글",
+    "en": "Dutch Angle",
+    "definition": "카메라를 옆으로 기울여 수평선이 비스듬하게 보이는 앵글. 불안·광기·혼란.",
+    "example": "흑화한 공주 기사를 더치 앵글로 잡아 불안한 분위기 연출",
+    "tags": [
+      "앵글"
+    ],
+    "aliases": [
+      "캔티드 앵글(Canted Angle)",
+      "사선 앵글"
+    ]
+  },
+  {
+    "id": "camera-pov-shot",
+    "deck": "camera",
+    "term": "POV 샷",
+    "en": "POV Shot",
+    "definition": "캐릭터의 눈으로 보는 시점.",
+    "example": "적이 칼을 내리치는 순간을 피격자 POV 샷으로",
+    "tags": [
+      "앵글"
+    ],
+    "aliases": [
+      "시점 샷",
+      "1인칭 샷"
+    ]
+  },
+  {
+    "id": "camera-extreme-close-up",
+    "deck": "camera",
+    "term": "익스트림 클로즈업",
+    "en": "Extreme Close-up",
+    "definition": "눈, 칼끝 등 아주 작은 부분만 화면 가득 채우는 샷.",
+    "example": "발도 직전 칼 손잡이를 쥐는 손가락을 익스트림 클로즈업",
+    "tags": [
+      "샷 크기·구도"
+    ],
+    "aliases": [
+      "ECU",
+      "디테일 샷"
+    ]
+  },
+  {
+    "id": "camera-close-up",
+    "deck": "camera",
+    "term": "클로즈업",
+    "en": "Close-up",
+    "definition": "얼굴이 화면을 채우는 샷. 감정 전달.",
+    "example": "결의하는 공주 기사의 클로즈업, 눈동자에 불꽃이 비친다",
+    "tags": [
+      "샷 크기·구도"
+    ],
+    "aliases": [
+      "CU",
+      "얼굴 샷"
+    ]
+  },
+  {
+    "id": "camera-medium-shot",
+    "deck": "camera",
+    "term": "미디엄 샷",
+    "en": "Medium Shot",
+    "definition": "허리나 가슴 위를 담는 샷. 대화·상반신 동작에 적합.",
+    "example": "칼을 겨누는 상반신을 미디엄 샷으로",
+    "tags": [
+      "샷 크기·구도"
+    ],
+    "aliases": [
+      "MS",
+      "웨이스트 샷",
+      "바스트 샷"
+    ]
+  },
+  {
+    "id": "camera-full-shot",
+    "deck": "camera",
+    "term": "풀 샷",
+    "en": "Full Shot",
+    "definition": "캐릭터 전신이 머리부터 발끝까지 들어오는 샷.",
+    "example": "3등신 캐릭터의 전투 포즈를 풀 샷으로 실루엣이 잘 보이게",
+    "tags": [
+      "샷 크기·구도"
+    ],
+    "aliases": [
+      "FS",
+      "전신 샷"
+    ]
+  },
+  {
+    "id": "camera-long-shot",
+    "deck": "camera",
+    "term": "롱 샷",
+    "en": "Long Shot",
+    "definition": "인물이 작게 보이고 배경이 넓게 담기는 샷. 장소 설명용.",
+    "example": "새 맵 진입 시 롱 샷으로 성채 전경을 보여준 뒤 캐릭터로 달리 인",
+    "tags": [
+      "샷 크기·구도"
+    ],
+    "aliases": [
+      "LS",
+      "와이드 샷",
+      "익스트림 롱 샷",
+      "설정 샷(Establishing Shot)"
+    ]
+  },
+  {
+    "id": "camera-over-the-shoulder-shot",
+    "deck": "camera",
+    "term": "숄더 샷",
+    "en": "Over-the-shoulder Shot",
+    "definition": "한 캐릭터의 어깨 너머로 상대를 찍는 샷. 대치·대화 장면.",
+    "example": "메이드 검사의 어깨 너머 숄더 샷으로 마주 선 적 기사를 잡는다",
+    "tags": [
+      "샷 크기·구도"
+    ],
+    "aliases": [
+      "OTS",
+      "어깨 너머 샷"
+    ]
+  },
+  {
+    "id": "camera-two-shot",
+    "deck": "camera",
+    "term": "투 샷",
+    "en": "Two Shot",
+    "definition": "두 인물을 한 화면에 함께 담는 샷.",
+    "example": "메이드 검사와 공주 기사가 등을 맞댄 투 샷",
+    "tags": [
+      "샷 크기·구도"
+    ],
+    "aliases": [
+      "2인 샷"
+    ]
+  },
+  {
+    "id": "camera-shot-reverse-shot",
+    "deck": "camera",
+    "term": "샷 리버스 샷",
+    "en": "Shot / Reverse Shot",
+    "definition": "대화하는 두 인물을 번갈아 반대 방향에서 잡는 편집 기법.",
+    "example": "대치 대사 장면을 숄더 샷 기준의 샷 리버스 샷으로 번갈아",
+    "tags": [
+      "샷 크기·구도"
+    ],
+    "aliases": [
+      "역방향 샷",
+      "컷백"
+    ]
+  },
+  {
+    "id": "camera-180-degree-rule",
+    "deck": "camera",
+    "term": "180도 법칙",
+    "en": "180-degree Rule",
+    "definition": "두 인물을 잇는 가상선의 한쪽에만 카메라를 둬야 좌우 방향이 헷갈리지 않는다는 규칙.",
+    "example": "180도 법칙을 지켜 아군은 항상 화면 왼쪽, 적은 오른쪽에 오게",
+    "tags": [
+      "샷 크기·구도"
+    ],
+    "aliases": [
+      "이매지너리 라인",
+      "액션 라인"
+    ]
+  },
+  {
+    "id": "camera-rule-of-thirds",
+    "deck": "camera",
+    "term": "삼분할 구도",
+    "en": "Rule of Thirds",
+    "definition": "화면을 가로세로 3등분한 선이나 교차점에 피사체를 두는 구도.",
+    "example": "캐릭터를 삼분할 구도의 왼쪽 선에 두고 오른쪽은 적이 올 공간으로 비워둔다",
+    "tags": [
+      "샷 크기·구도"
+    ],
+    "aliases": [
+      "3분할"
+    ]
+  },
+  {
+    "id": "camera-lead-room",
+    "deck": "camera",
+    "term": "리드 룸",
+    "en": "Lead Room",
+    "definition": "캐릭터가 바라보거나 움직이는 방향에 여백을 두는 것.",
+    "example": "오른쪽을 보는 캐릭터에게 리드 룸을 주어 화면 오른쪽을 비워둔다",
+    "tags": [
+      "샷 크기·구도"
+    ],
+    "aliases": [
+      "노즈 룸",
+      "시선 여백"
+    ]
+  },
+  {
+    "id": "camera-over-the-shoulder-camera",
+    "deck": "camera",
+    "term": "숄더 캠",
+    "en": "Over-the-shoulder Camera",
+    "definition": "캐릭터 어깨 뒤에 붙어서 따라가는 3인칭 게임 카메라.",
+    "example": "필살기 컷신만 숄더 캠으로 전환해 적을 향해 돌진하는 시점",
+    "tags": [
+      "게임 카메라"
+    ],
+    "aliases": [
+      "3인칭 숄더 뷰",
+      "TPS 카메라"
+    ]
+  },
+  {
+    "id": "camera-quarter-view",
+    "deck": "camera",
+    "term": "쿼터뷰",
+    "en": "Quarter View",
+    "definition": "비스듬히 45도 정도 위에서 내려다보는 시점. SRPG의 전형적인 맵 카메라.",
+    "example": "SRPG 전투 맵은 쿼터뷰, 공격 시에만 사이드뷰 전투 컷으로 전환",
+    "tags": [
+      "게임 카메라"
+    ],
+    "aliases": [
+      "아이소메트릭(Isometric)",
+      "사선 탑뷰",
+      "디메트릭"
+    ]
+  },
+  {
+    "id": "camera-side-view",
+    "deck": "camera",
+    "term": "사이드뷰",
+    "en": "Side View",
+    "definition": "옆에서 수평으로 보는 시점. SRPG 전투 연출 컷에 자주 쓴다.",
+    "example": "공격 연출 시 사이드뷰로 전환해 왼쪽 아군과 오른쪽 적이 마주 보게",
+    "tags": [
+      "게임 카메라"
+    ],
+    "aliases": [
+      "횡스크롤 뷰",
+      "측면 뷰"
+    ]
+  },
+  {
+    "id": "camera-lock-on",
+    "deck": "camera",
+    "term": "락온",
+    "en": "Lock-on",
+    "definition": "카메라와 캐릭터가 특정 적을 계속 바라보도록 고정하는 시스템.",
+    "example": "보스에게 락온하면 카메라가 플레이어와 보스를 함께 화면에 담는다",
+    "tags": [
+      "게임 카메라"
+    ],
+    "aliases": [
+      "타겟 고정",
+      "Z주목"
+    ]
+  },
+  {
+    "id": "camera-cut-in",
+    "deck": "camera",
+    "term": "컷인",
+    "en": "Cut-in",
+    "definition": "필살기 등에서 캐릭터 얼굴이나 상반신 일러스트가 화면에 띠처럼 끼어드는 연출.",
+    "example": "필살기 발동 시 화면을 가로지르는 띠에 공주 기사 얼굴 컷인 0.8초",
+    "tags": [
+      "게임 카메라"
+    ],
+    "aliases": [
+      "컷인 연출",
+      "필살기 컷인"
+    ]
+  },
+  {
+    "id": "camera-camera-lag",
+    "deck": "camera",
+    "term": "카메라 래그",
+    "en": "Camera Lag",
+    "definition": "캐릭터가 움직인 뒤 카메라가 살짝 늦게 따라와 부드러운 느낌을 주는 것.",
+    "example": "대시할 때 카메라 래그를 줘서 캐릭터가 화면 앞쪽으로 튀어나가는 속도감",
+    "tags": [
+      "게임 카메라"
+    ],
+    "aliases": [
+      "카메라 지연",
+      "스무딩",
+      "댐핑(Damping)"
+    ]
+  },
+  {
+    "id": "camera-dead-zone",
+    "deck": "camera",
+    "term": "데드존",
+    "en": "Dead Zone",
+    "definition": "캐릭터가 이 영역 안에서 움직일 땐 카메라가 따라가지 않는 화면 중앙 영역.",
+    "example": "맵 탐색 시 화면 중앙 30% 데드존, 벗어나면 그때 카메라가 따라감",
+    "tags": [
+      "게임 카메라"
+    ],
+    "aliases": [
+      "카메라 데드존"
+    ]
+  },
+  {
+    "id": "camera-letterbox",
+    "deck": "camera",
+    "term": "레터박스",
+    "en": "Letterbox",
+    "definition": "화면 위아래에 검은 띠를 넣어 컷신·영화 느낌을 주는 것.",
+    "example": "컷신 진입 시 레터박스가 위아래에서 슬라이드 인",
+    "tags": [
+      "게임 카메라"
+    ],
+    "aliases": [
+      "시네마 바",
+      "블랙 바"
+    ]
+  }
+]

@@ -1,0 +1,201 @@
+[
+  {
+    "id": "gamefeel-juice",
+    "deck": "gamefeel",
+    "term": "주스(손맛 연출)",
+    "en": "Juice",
+    "definition": "흔들림, 소리, 파티클, 트윈을 더해 행동이 기분 좋게 느껴지게 만드는 것.",
+    "example": "코인을 먹을 때 튀어오르는 트윈, 반짝 파티클, 경쾌한 효과음으로 주스를 더해줘",
+    "tags": [
+      "원칙"
+    ],
+    "aliases": [
+      "쥬시"
+    ]
+  },
+  {
+    "id": "gamefeel-coyote-time",
+    "deck": "gamefeel",
+    "term": "코요테 타임",
+    "en": "Coyote Time",
+    "definition": "발판에서 떨어진 직후 짧은 시간 동안 점프를 허용하는 관대한 판정.",
+    "example": "발판 끝에서 떨어진 뒤 0.1초까지는 점프가 되도록 코요테 타임을 넣어줘",
+    "tags": [
+      "입력"
+    ]
+  },
+  {
+    "id": "gamefeel-jump-buffer",
+    "deck": "gamefeel",
+    "term": "점프 버퍼",
+    "en": "Jump Buffering",
+    "definition": "착지 직전에 누른 점프 입력을 기억했다가 착지하자마자 실행하는 것.",
+    "example": "착지 0.15초 전에 누른 점프도 착지 순간 바로 나가게 점프 버퍼를 넣어줘",
+    "tags": [
+      "입력"
+    ]
+  },
+  {
+    "id": "gamefeel-variable-jump",
+    "deck": "gamefeel",
+    "term": "가변 점프",
+    "en": "Variable Jump Height",
+    "definition": "점프 버튼을 누르는 시간에 따라 점프 높이가 달라지는 것.",
+    "example": "버튼을 짧게 누르면 낮게, 길게 누르면 높게 뛰는 가변 점프로 만들어줘",
+    "tags": [
+      "입력"
+    ]
+  },
+  {
+    "id": "gamefeel-fall-gravity",
+    "deck": "gamefeel",
+    "term": "낙하 가속",
+    "en": "Fast Fall / Gravity Multiplier",
+    "definition": "올라갈 때보다 떨어질 때 중력을 세게 해 점프를 경쾌하게 만드는 기법.",
+    "example": "점프 정점 이후에는 중력을 2배로 해서 둥실 뜨지 않고 시원하게 떨어지게 해줘",
+    "tags": [
+      "이동"
+    ]
+  },
+  {
+    "id": "gamefeel-input-lag",
+    "deck": "gamefeel",
+    "term": "입력 지연",
+    "en": "Input Latency",
+    "definition": "버튼을 누른 뒤 화면에 반응이 나타나기까지 걸리는 시간.",
+    "example": "공격 버튼을 누르면 2프레임 안에 모션이 시작되도록 입력 지연을 줄여줘",
+    "tags": [
+      "입력"
+    ],
+    "aliases": [
+      "인풋 랙"
+    ]
+  },
+  {
+    "id": "gamefeel-responsiveness",
+    "deck": "gamefeel",
+    "term": "조작 반응성",
+    "en": "Responsiveness",
+    "definition": "입력에 캐릭터가 얼마나 즉각적으로 반응하는지.",
+    "example": "방향 전환 가속을 높여서 조작 반응성을 키우고 미끄러지는 느낌을 없애줘",
+    "tags": [
+      "입력"
+    ]
+  },
+  {
+    "id": "gamefeel-acceleration",
+    "deck": "gamefeel",
+    "term": "가감속 곡선",
+    "en": "Acceleration / Deceleration",
+    "definition": "최고 속도에 도달하는 시간과 멈추는 시간. 캐릭터의 무게감을 결정한다.",
+    "example": "얼음 위에서는 감속을 길게 해서 미끄러지고, 평지에서는 0.05초 만에 멈추게 해줘",
+    "tags": [
+      "이동"
+    ]
+  },
+  {
+    "id": "gamefeel-screen-freeze",
+    "deck": "gamefeel",
+    "term": "프리즈 프레임",
+    "en": "Freeze Frame",
+    "definition": "결정타 순간 화면 전체를 잠깐 멈추는 연출. 히트스톱보다 길고 극적이다.",
+    "example": "보스에게 마지막 일격을 넣으면 0.5초 프리즈 프레임 후 흑백 반전 연출을 해줘",
+    "tags": [
+      "연출"
+    ]
+  },
+  {
+    "id": "gamefeel-camera-punch",
+    "deck": "gamefeel",
+    "term": "카메라 펀치",
+    "en": "Camera Punch / Kick",
+    "definition": "타격이나 발사 순간 카메라를 한쪽으로 짧게 튕기거나 FOV를 순간 바꾸는 연출.",
+    "example": "강공격 타격 때 카메라를 타격 방향으로 살짝 튕기는 카메라 펀치를 넣어줘",
+    "tags": [
+      "연출"
+    ],
+    "aliases": [
+      "FOV 킥"
+    ]
+  },
+  {
+    "id": "gamefeel-recoil",
+    "deck": "gamefeel",
+    "term": "반동",
+    "en": "Recoil",
+    "definition": "총을 쏠 때 조준점과 카메라가 위로 튀는 움직임.",
+    "example": "돌격소총 반동은 위로 올라가다 좌우로 살짝 흔들리는 패턴으로 하고 손을 떼면 천천히 돌아오게 해줘",
+    "tags": [
+      "무기"
+    ]
+  },
+  {
+    "id": "gamefeel-haptic",
+    "deck": "gamefeel",
+    "term": "햅틱 진동",
+    "en": "Haptic Feedback / Rumble",
+    "definition": "패드나 휴대폰 진동으로 타격감을 전달하는 것.",
+    "example": "강공격이 맞으면 짧고 강한 햅틱 진동, 피격 시엔 길고 약한 진동을 줘",
+    "tags": [
+      "피드백"
+    ],
+    "aliases": [
+      "럼블"
+    ]
+  },
+  {
+    "id": "gamefeel-aim-assist",
+    "deck": "gamefeel",
+    "term": "에임 어시스트",
+    "en": "Aim Assist",
+    "definition": "조준점이 적 근처에 오면 느려지거나 살짝 끌어당겨 조준을 돕는 기능.",
+    "example": "패드 사용 시 조준점이 적 위를 지나면 감도가 40% 느려지는 에임 어시스트를 넣어줘",
+    "tags": [
+      "보정"
+    ]
+  },
+  {
+    "id": "gamefeel-bullet-time",
+    "deck": "gamefeel",
+    "term": "불릿 타임",
+    "en": "Bullet Time",
+    "definition": "주변 시간만 느려지고 플레이어는 상대적으로 빠르게 움직이는 연출.",
+    "example": "공중에서 조준하면 3초간 불릿 타임으로 주변이 20% 속도가 되게 해줘",
+    "tags": [
+      "연출"
+    ]
+  },
+  {
+    "id": "gamefeel-anticipation-feel",
+    "deck": "gamefeel",
+    "term": "전조 연출",
+    "en": "Wind-up Feedback",
+    "definition": "큰 행동 전에 소리, 빛, 화면 변화로 곧 무언가 터질 것을 알리는 연출.",
+    "example": "필살기 전 0.3초간 화면이 살짝 어두워지고 기 모으는 소리가 올라가는 전조 연출을 넣어줘",
+    "tags": [
+      "연출"
+    ]
+  },
+  {
+    "id": "gamefeel-weight",
+    "deck": "gamefeel",
+    "term": "무게감",
+    "en": "Sense of Weight",
+    "definition": "캐릭터나 무기가 묵직하게 느껴지는 정도. 가감속, 준비 동작, 히트스톱, 소리로 만든다.",
+    "example": "대검은 준비 동작을 길게, 히트스톱을 6프레임으로, 타격음은 저음을 강조해서 무게감을 살려줘",
+    "tags": [
+      "원칙"
+    ]
+  },
+  {
+    "id": "gamefeel-feedback-layer",
+    "deck": "gamefeel",
+    "term": "피드백 중첩",
+    "en": "Feedback Stacking",
+    "definition": "한 사건에 시각, 청각, 진동, 카메라 반응을 동시에 겹쳐 강하게 느끼게 하는 것.",
+    "example": "치명타에 히트스톱, 카메라 흔들림, 큰 히트 스파크, 묵직한 효과음, 진동을 한꺼번에 겹쳐줘",
+    "tags": [
+      "원칙"
+    ]
+  }
+]

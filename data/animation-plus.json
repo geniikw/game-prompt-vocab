@@ -1,0 +1,431 @@
+[
+  {
+    "id": "animation-root-motion",
+    "deck": "animation",
+    "term": "루트 모션",
+    "en": "Root Motion",
+    "definition": "애니메이션에 들어 있는 이동량으로 캐릭터를 실제로 움직이는 방식. 발이 미끄러지지 않는다.",
+    "example": "구르기와 공격 돌진은 루트 모션으로 이동하게 해서 발 미끄러짐이 없게 해줘",
+    "tags": [
+      "시스템"
+    ]
+  },
+  {
+    "id": "animation-in-place",
+    "deck": "animation",
+    "term": "인플레이스 애니메이션",
+    "en": "In-Place Animation",
+    "definition": "제자리에서 재생되고 이동은 코드가 따로 처리하는 애니메이션.",
+    "example": "걷기, 달리기는 인플레이스 애니메이션으로 하고 이동 속도는 코드로 제어해줘",
+    "tags": [
+      "시스템"
+    ]
+  },
+  {
+    "id": "animation-foot-sliding",
+    "deck": "animation",
+    "term": "발 미끄러짐",
+    "en": "Foot Sliding",
+    "definition": "이동 속도와 걸음 애니메이션이 맞지 않아 발이 땅에서 미끄러져 보이는 문제.",
+    "example": "이동 속도에 맞춰 애니메이션 재생 속도를 바꿔서 발 미끄러짐을 없애줘",
+    "tags": [
+      "문제"
+    ]
+  },
+  {
+    "id": "animation-blend-space",
+    "deck": "animation",
+    "term": "블렌드 스페이스",
+    "en": "Blend Space",
+    "definition": "속도, 방향 같은 값에 따라 여러 애니메이션을 섞어 주는 설정.",
+    "example": "이동 방향과 속도를 축으로 하는 2D 블렌드 스페이스로 8방향 걷기와 달리기를 섞어줘",
+    "tags": [
+      "시스템"
+    ],
+    "aliases": [
+      "블렌드 트리"
+    ]
+  },
+  {
+    "id": "animation-crossfade",
+    "deck": "animation",
+    "term": "크로스페이드",
+    "en": "Crossfade / Blend Time",
+    "definition": "한 애니메이션에서 다른 애니메이션으로 넘어갈 때 잠깐 겹쳐 섞는 것.",
+    "example": "공격에서 대기로 돌아갈 때 0.2초 크로스페이드로 자연스럽게 넘어가게 해줘",
+    "tags": [
+      "시스템"
+    ]
+  },
+  {
+    "id": "animation-anim-state-machine",
+    "deck": "animation",
+    "term": "애니메이션 스테이트 머신",
+    "en": "Animation State Machine",
+    "definition": "대기, 이동, 점프, 공격 같은 애니메이션 상태와 전환 조건을 정리한 구조.",
+    "example": "애니메이션 스테이트 머신에 착지 상태를 추가해 낙하 높이에 따라 약한 착지, 강한 착지로 나눠줘",
+    "tags": [
+      "시스템"
+    ],
+    "aliases": [
+      "애니메이터"
+    ]
+  },
+  {
+    "id": "animation-additive",
+    "deck": "animation",
+    "term": "애디티브 애니메이션",
+    "en": "Additive Animation",
+    "definition": "기본 동작 위에 차이만 더하는 애니메이션. 숨쉬기, 피격 흔들림을 겹칠 때 쓴다.",
+    "example": "달리는 중에도 맞으면 상체만 움찔하는 애디티브 피격 애니메이션을 얹어줘",
+    "tags": [
+      "시스템"
+    ]
+  },
+  {
+    "id": "animation-layered",
+    "deck": "animation",
+    "term": "레이어 블렌딩",
+    "en": "Layered Blending / Avatar Mask",
+    "definition": "상체와 하체처럼 몸의 일부에만 다른 애니메이션을 적용하는 것.",
+    "example": "하체는 달리기를 유지하고 상체만 활 쏘기 애니메이션을 재생하도록 레이어 블렌딩해줘",
+    "tags": [
+      "시스템"
+    ],
+    "aliases": [
+      "상하체 분리"
+    ]
+  },
+  {
+    "id": "animation-ik",
+    "deck": "animation",
+    "term": "IK (역운동학)",
+    "en": "Inverse Kinematics",
+    "definition": "손이나 발의 목표 위치를 정하면 팔다리 관절 각도를 자동으로 계산하는 기법.",
+    "example": "양손 검을 쥘 때 왼손을 IK로 손잡이에 붙여서 어떤 모션에서도 손이 떨어지지 않게 해줘",
+    "tags": [
+      "리깅"
+    ]
+  },
+  {
+    "id": "animation-foot-ik",
+    "deck": "animation",
+    "term": "풋 IK",
+    "en": "Foot IK",
+    "definition": "경사나 계단에서 발이 지면에 정확히 닿도록 다리를 맞추는 IK.",
+    "example": "계단에 서 있을 때 풋 IK로 양발이 각 계단 높이에 맞게 디디게 해줘",
+    "tags": [
+      "리깅"
+    ]
+  },
+  {
+    "id": "animation-look-at",
+    "deck": "animation",
+    "term": "룩앳",
+    "en": "Look-At / Aim Offset",
+    "definition": "머리나 상체가 특정 대상을 바라보도록 돌리는 것.",
+    "example": "NPC가 근처를 지나가는 플레이어를 룩앳으로 고개만 돌려 쳐다보게 해줘",
+    "tags": [
+      "리깅"
+    ],
+    "aliases": [
+      "에임 오프셋"
+    ]
+  },
+  {
+    "id": "animation-rig",
+    "deck": "animation",
+    "term": "리깅",
+    "en": "Rigging",
+    "definition": "3D 모델에 뼈대와 조종 장치를 심어 움직일 수 있게 만드는 작업.",
+    "example": "망토와 머리카락에도 본을 넣어 리깅하고 물리로 흔들리게 해줘",
+    "tags": [
+      "리깅"
+    ]
+  },
+  {
+    "id": "animation-skinning",
+    "deck": "animation",
+    "term": "스키닝(웨이트)",
+    "en": "Skinning / Weight Painting",
+    "definition": "각 정점이 어느 뼈를 얼마나 따라 움직일지 정하는 작업.",
+    "example": "팔꿈치를 굽힐 때 찌그러지지 않게 스키닝 웨이트를 다듬어줘",
+    "tags": [
+      "리깅"
+    ]
+  },
+  {
+    "id": "animation-retarget",
+    "deck": "animation",
+    "term": "리타게팅",
+    "en": "Retargeting",
+    "definition": "한 캐릭터의 애니메이션을 체형이 다른 캐릭터에 옮겨 쓰는 것.",
+    "example": "기본 인간형 애니메이션을 키 작은 드워프 캐릭터에 리타게팅해줘",
+    "tags": [
+      "제작"
+    ]
+  },
+  {
+    "id": "animation-mocap",
+    "deck": "animation",
+    "term": "모션 캡처",
+    "en": "Motion Capture",
+    "definition": "실제 배우의 움직임을 센서나 카메라로 기록해 애니메이션으로 쓰는 것.",
+    "example": "검술 동작은 모션 캡처 느낌의 사실적인 무게감으로 만들어줘",
+    "tags": [
+      "제작"
+    ],
+    "aliases": [
+      "모캡"
+    ]
+  },
+  {
+    "id": "animation-keyframe",
+    "deck": "animation",
+    "term": "키프레임 애니메이션",
+    "en": "Keyframe Animation",
+    "definition": "주요 포즈를 직접 찍고 사이를 보간해 만드는 수작업 애니메이션.",
+    "example": "과장된 액션이 필요하니 모캡 대신 키프레임 애니메이션으로 포즈를 강하게 잡아줘",
+    "tags": [
+      "제작"
+    ]
+  },
+  {
+    "id": "animation-pose-to-pose",
+    "deck": "animation",
+    "term": "포즈 투 포즈",
+    "en": "Pose to Pose",
+    "definition": "핵심 포즈를 먼저 정하고 그 사이를 채우는 작업 방식.",
+    "example": "공격 모션을 포즈 투 포즈로 준비-타격-회수 세 포즈부터 잡아줘",
+    "tags": [
+      "원칙"
+    ]
+  },
+  {
+    "id": "animation-straight-ahead",
+    "deck": "animation",
+    "term": "스트레이트 어헤드",
+    "en": "Straight Ahead Action",
+    "definition": "처음부터 순서대로 한 장씩 그려 나가는 방식. 불, 물처럼 흐르는 움직임에 좋다.",
+    "example": "불꽃 2D 애니메이션은 스트레이트 어헤드로 그려 자연스럽게 흔들리게 해줘",
+    "tags": [
+      "원칙"
+    ]
+  },
+  {
+    "id": "animation-timing-spacing",
+    "deck": "animation",
+    "term": "타이밍과 스페이싱",
+    "en": "Timing & Spacing",
+    "definition": "동작에 걸리는 프레임 수(타이밍)와 프레임 사이 이동 거리(스페이싱). 무게감과 속도를 결정한다.",
+    "example": "대검 내려찍기는 준비 동작 스페이싱을 촘촘하게, 타격 순간은 넓게 해서 묵직하게 만들어줘",
+    "tags": [
+      "원칙"
+    ]
+  },
+  {
+    "id": "animation-exaggeration",
+    "deck": "animation",
+    "term": "과장",
+    "en": "Exaggeration",
+    "definition": "동작을 실제보다 크게 표현해 더 잘 읽히고 강하게 보이게 하는 원칙.",
+    "example": "필살기 모션은 과장을 크게 줘서 몸을 거의 뒤로 젖혔다가 휘두르게 해줘",
+    "tags": [
+      "원칙"
+    ]
+  },
+  {
+    "id": "animation-secondary-action",
+    "deck": "animation",
+    "term": "부차적 동작",
+    "en": "Secondary Action",
+    "definition": "주 동작을 보조하는 작은 동작. 예: 걸으면서 머리를 긁기.",
+    "example": "대기 모션에 칼자루를 고쳐 쥐는 부차적 동작을 가끔 섞어줘",
+    "tags": [
+      "원칙"
+    ]
+  },
+  {
+    "id": "animation-idle",
+    "deck": "animation",
+    "term": "대기 모션",
+    "en": "Idle Animation",
+    "definition": "조작하지 않을 때 캐릭터가 서서 하는 동작. 오래 두면 특별 대기 모션이 나오기도 한다.",
+    "example": "10초 이상 가만히 두면 검을 땅에 꽂고 기대는 특별 대기 모션이 나오게 해줘",
+    "tags": [
+      "이동"
+    ],
+    "aliases": [
+      "아이들"
+    ]
+  },
+  {
+    "id": "animation-locomotion",
+    "deck": "animation",
+    "term": "로코모션",
+    "en": "Locomotion",
+    "definition": "걷기, 달리기, 방향 전환, 멈추기 등 이동 관련 애니메이션 전체.",
+    "example": "로코모션에 출발, 정지, 급방향 전환 애니메이션을 따로 만들어 무게감을 줘",
+    "tags": [
+      "이동"
+    ]
+  },
+  {
+    "id": "animation-start-stop",
+    "deck": "animation",
+    "term": "출발/정지 모션",
+    "en": "Start / Stop Animation",
+    "definition": "이동을 시작하거나 멈출 때 재생하는 짧은 전환 동작.",
+    "example": "달리다 멈출 때 한두 걸음 미끄러지며 서는 정지 모션을 넣어줘",
+    "tags": [
+      "이동"
+    ]
+  },
+  {
+    "id": "animation-pivot",
+    "deck": "animation",
+    "term": "급선회",
+    "en": "Pivot / Turn",
+    "definition": "달리다 반대 방향으로 몸을 틀어 도는 동작.",
+    "example": "달리는 중 반대 방향을 입력하면 발로 브레이크를 걸고 180도 급선회하는 모션을 넣어줘",
+    "tags": [
+      "이동"
+    ]
+  },
+  {
+    "id": "animation-turn-in-place",
+    "deck": "animation",
+    "term": "제자리 회전",
+    "en": "Turn in Place",
+    "definition": "서 있는 상태에서 발을 옮기며 몸 방향을 돌리는 동작.",
+    "example": "카메라를 90도 이상 돌리면 제자리 회전 애니메이션으로 몸이 따라 돌게 해줘",
+    "tags": [
+      "이동"
+    ]
+  },
+  {
+    "id": "animation-strafe",
+    "deck": "animation",
+    "term": "스트레이프",
+    "en": "Strafe",
+    "definition": "정면을 유지한 채 옆이나 뒤로 이동하는 것. 락온 중 이동에 쓴다.",
+    "example": "락온 중에는 적을 바라본 채 스트레이프로 옆걸음 이동하게 해줘",
+    "tags": [
+      "이동"
+    ],
+    "aliases": [
+      "게걸음"
+    ]
+  },
+  {
+    "id": "animation-ragdoll",
+    "deck": "animation",
+    "term": "래그돌",
+    "en": "Ragdoll",
+    "definition": "죽거나 기절했을 때 몸을 물리 엔진에 맡겨 축 늘어지게 하는 것.",
+    "example": "적이 죽으면 래그돌로 전환하고 마지막 타격 방향으로 날아가게 해줘",
+    "tags": [
+      "물리"
+    ]
+  },
+  {
+    "id": "animation-physical-anim",
+    "deck": "animation",
+    "term": "물리 기반 애니메이션",
+    "en": "Physical Animation / Active Ragdoll",
+    "definition": "애니메이션과 물리를 섞어 맞으면 몸이 실제로 휘청이게 하는 기법.",
+    "example": "피격 시 물리 기반 애니메이션으로 맞은 부위가 밀려나고 다시 자세를 회복하게 해줘",
+    "tags": [
+      "물리"
+    ]
+  },
+  {
+    "id": "animation-procedural-anim",
+    "deck": "animation",
+    "term": "절차적 애니메이션",
+    "en": "Procedural Animation",
+    "definition": "미리 만든 동작 대신 코드로 실시간 생성하는 애니메이션. 거미 다리, 꼬리 흔들림 등.",
+    "example": "거대 거미의 다리는 절차적 애니메이션으로 지형에 맞춰 한 걸음씩 짚게 해줘",
+    "tags": [
+      "물리"
+    ]
+  },
+  {
+    "id": "animation-jiggle",
+    "deck": "animation",
+    "term": "흔들림 본",
+    "en": "Jiggle / Spring Bones",
+    "definition": "머리카락, 장신구, 꼬리 등이 스프링처럼 출렁이게 하는 보조 뼈.",
+    "example": "포니테일과 귀걸이에 흔들림 본을 넣어 달릴 때 출렁이게 해줘",
+    "tags": [
+      "물리"
+    ],
+    "aliases": [
+      "스프링 본"
+    ]
+  },
+  {
+    "id": "animation-cloth",
+    "deck": "animation",
+    "term": "천 시뮬레이션",
+    "en": "Cloth Simulation",
+    "definition": "망토, 치마 등 천의 움직임을 물리로 계산하는 것.",
+    "example": "망토에 천 시뮬레이션을 넣고 바람 방향에 따라 펄럭이게 해줘",
+    "tags": [
+      "물리"
+    ]
+  },
+  {
+    "id": "animation-motion-matching",
+    "deck": "animation",
+    "term": "모션 매칭",
+    "en": "Motion Matching",
+    "definition": "방대한 모션 데이터에서 현재 상황에 가장 맞는 동작 조각을 실시간으로 찾아 재생하는 기법.",
+    "example": "이동 애니메이션은 모션 매칭 수준으로 방향 전환이 부드럽게 이어지게 해줘",
+    "tags": [
+      "시스템"
+    ]
+  },
+  {
+    "id": "animation-sync-anim",
+    "deck": "animation",
+    "term": "싱크 애니메이션",
+    "en": "Synced / Paired Animation",
+    "definition": "두 캐릭터가 정확히 맞물려 움직이는 애니메이션. 잡기, 처형에 쓴다.",
+    "example": "처형 공격은 플레이어와 적의 싱크 애니메이션으로 만들어 위치를 정확히 맞춰줘",
+    "tags": [
+      "시스템"
+    ],
+    "aliases": [
+      "페어드 애니메이션"
+    ]
+  },
+  {
+    "id": "animation-anim-event",
+    "deck": "animation",
+    "term": "애니메이션 이벤트",
+    "en": "Animation Event / Notify",
+    "definition": "애니메이션 특정 프레임에 소리, 이펙트, 판정을 실행하도록 심어 두는 신호.",
+    "example": "발이 땅에 닿는 프레임에 애니메이션 이벤트를 넣어 발소리와 먼지 이펙트를 재생해줘",
+    "tags": [
+      "시스템"
+    ],
+    "aliases": [
+      "노티파이"
+    ]
+  },
+  {
+    "id": "animation-frame-rate-anim",
+    "deck": "animation",
+    "term": "2프레임 애니메이션",
+    "en": "Animating on Twos",
+    "definition": "2D에서 한 그림을 2프레임씩 보여 주는 방식. 3D에서 일부러 쓰면 애니메이션 느낌이 난다.",
+    "example": "컷신 캐릭터 애니메이션을 투즈(2프레임 단위)로 끊어 셀 애니 느낌을 내줘",
+    "tags": [
+      "스타일"
+    ],
+    "aliases": [
+      "투즈"
+    ]
+  }
+]

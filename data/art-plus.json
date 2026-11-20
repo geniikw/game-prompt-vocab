@@ -1,0 +1,331 @@
+[
+  {
+    "id": "art-cel-shading",
+    "deck": "art",
+    "term": "셀 셰이딩",
+    "en": "Cel Shading / Toon Shading",
+    "definition": "명암을 단계로 끊어 만화나 애니메이션처럼 보이게 하는 셰이딩.",
+    "example": "캐릭터를 2단계 셀 셰이딩으로 하고 그림자 색은 검정 대신 보랏빛으로 해줘",
+    "tags": [
+      "셰이딩"
+    ],
+    "aliases": [
+      "툰 셰이딩"
+    ]
+  },
+  {
+    "id": "art-outline",
+    "deck": "art",
+    "term": "외곽선",
+    "en": "Outline / Inverted Hull",
+    "definition": "캐릭터 윤곽에 검은 선을 그려 만화 느낌을 내는 기법. 뒤집은 메시나 후처리로 만든다.",
+    "example": "셀 셰이딩 캐릭터에 두께 2px 외곽선을 넣고 멀어질수록 얇아지게 해줘",
+    "tags": [
+      "셰이딩"
+    ]
+  },
+  {
+    "id": "art-low-poly",
+    "deck": "art",
+    "term": "로우 폴리",
+    "en": "Low Poly",
+    "definition": "적은 수의 면으로 각지게 만든 3D 스타일.",
+    "example": "로우 폴리 스타일로 각진 나무와 바위를 만들고 텍스처 없이 면마다 단색으로 칠해줘",
+    "tags": [
+      "스타일"
+    ]
+  },
+  {
+    "id": "art-pixel-art",
+    "deck": "art",
+    "term": "픽셀 아트",
+    "en": "Pixel Art",
+    "definition": "작은 점(픽셀)을 하나하나 찍어 그린 도트 그래픽.",
+    "example": "32x32 픽셀 아트로 기사 캐릭터를 만들고 16색 팔레트로 제한해줘",
+    "tags": [
+      "스타일"
+    ],
+    "aliases": [
+      "도트"
+    ]
+  },
+  {
+    "id": "art-hand-painted",
+    "deck": "art",
+    "term": "핸드 페인팅",
+    "en": "Hand-Painted Texture",
+    "definition": "빛과 그림자까지 손으로 그려 넣은 텍스처 스타일.",
+    "example": "조명에 의존하지 않도록 명암을 직접 그린 핸드 페인팅 텍스처로 무기를 만들어줘",
+    "tags": [
+      "스타일"
+    ]
+  },
+  {
+    "id": "art-stylized",
+    "deck": "art",
+    "term": "스타일라이즈드",
+    "en": "Stylized",
+    "definition": "사실적이지 않게 비율과 형태를 과장하거나 단순화한 스타일.",
+    "example": "머리가 크고 손이 과장된 스타일라이즈드 캐릭터 비율로 디자인해줘",
+    "tags": [
+      "스타일"
+    ]
+  },
+  {
+    "id": "art-photoreal",
+    "deck": "art",
+    "term": "포토리얼",
+    "en": "Photorealistic",
+    "definition": "사진처럼 사실적인 그래픽 스타일.",
+    "example": "포토리얼한 숲 환경을 만들고 PBR 재질과 스캔 텍스처를 써줘",
+    "tags": [
+      "스타일"
+    ]
+  },
+  {
+    "id": "art-chibi",
+    "deck": "art",
+    "term": "치비(SD)",
+    "en": "Chibi / Super Deformed",
+    "definition": "머리를 크게, 몸을 2~3등신으로 줄여 귀엽게 만든 비율.",
+    "example": "보스를 3등신 치비 비율로 바꾼 귀여운 버전 스킨을 만들어줘",
+    "tags": [
+      "비율"
+    ],
+    "aliases": [
+      "SD 캐릭터"
+    ]
+  },
+  {
+    "id": "art-heads-tall",
+    "deck": "art",
+    "term": "등신",
+    "en": "Heads Tall (proportion)",
+    "definition": "키를 머리 길이로 나눈 비율. 8등신은 늘씬하고 2등신은 귀엽다.",
+    "example": "주인공은 7등신, 동료 요정은 2.5등신으로 디자인해줘",
+    "tags": [
+      "비율"
+    ]
+  },
+  {
+    "id": "art-silhouette-read",
+    "deck": "art",
+    "term": "실루엣 가독성",
+    "en": "Silhouette Readability",
+    "definition": "검게 칠해 실루엣만 봐도 어떤 캐릭터, 어떤 동작인지 알아볼 수 있는 정도.",
+    "example": "적 종류마다 실루엣 가독성이 높도록 방패병은 넓게, 궁수는 가늘고 길게 디자인해줘",
+    "tags": [
+      "디자인"
+    ]
+  },
+  {
+    "id": "art-shape-language",
+    "deck": "art",
+    "term": "형태 언어",
+    "en": "Shape Language",
+    "definition": "원은 친근함, 사각형은 견고함, 삼각형은 위험함처럼 형태로 성격을 전달하는 디자인 원리.",
+    "example": "형태 언어를 써서 악당 성은 뾰족한 삼각형 위주로, 마을은 둥근 형태 위주로 만들어줘",
+    "tags": [
+      "디자인"
+    ]
+  },
+  {
+    "id": "art-color-palette",
+    "deck": "art",
+    "term": "컬러 팔레트",
+    "en": "Color Palette",
+    "definition": "작품에서 쓰는 색의 정해진 묶음.",
+    "example": "이 지역 컬러 팔레트는 짙은 녹색, 이끼색, 바랜 금색 다섯 가지로 제한해줘",
+    "tags": [
+      "색"
+    ]
+  },
+  {
+    "id": "art-complementary",
+    "deck": "art",
+    "term": "보색 대비",
+    "en": "Complementary Contrast",
+    "definition": "색상환에서 반대편 색을 함께 써 서로를 돋보이게 하는 배색.",
+    "example": "파란 배경에 주황색 상호작용 오브젝트를 둬서 보색 대비로 눈에 띄게 해줘",
+    "tags": [
+      "색"
+    ]
+  },
+  {
+    "id": "art-value",
+    "deck": "art",
+    "term": "명도 구조",
+    "en": "Value Structure",
+    "definition": "색을 빼고 밝기만 봤을 때의 명암 배치. 가독성의 핵심.",
+    "example": "흑백으로 봐도 길과 벽이 구분되도록 명도 구조를 정리해줘",
+    "tags": [
+      "색"
+    ],
+    "aliases": [
+      "밸류"
+    ]
+  },
+  {
+    "id": "art-saturation",
+    "deck": "art",
+    "term": "채도",
+    "en": "Saturation",
+    "definition": "색의 선명함 정도. 높으면 쨍하고 낮으면 칙칙하다.",
+    "example": "배경은 채도를 낮추고 캐릭터와 아이템만 채도를 높여 시선이 가게 해줘",
+    "tags": [
+      "색"
+    ]
+  },
+  {
+    "id": "art-atmospheric-perspective",
+    "deck": "art",
+    "term": "대기 원근법",
+    "en": "Atmospheric Perspective",
+    "definition": "멀리 있을수록 흐리고 푸르스름하며 대비가 약해지는 표현.",
+    "example": "먼 산은 대기 원근법으로 푸르고 흐리게, 가까운 바위는 진하게 그려줘",
+    "tags": [
+      "구도"
+    ],
+    "aliases": [
+      "공기 원근법"
+    ]
+  },
+  {
+    "id": "art-focal-point",
+    "deck": "art",
+    "term": "초점(포컬 포인트)",
+    "en": "Focal Point",
+    "definition": "화면에서 시선이 가장 먼저 가도록 설계한 지점.",
+    "example": "보스방 입구가 포컬 포인트가 되도록 밝기와 대비를 그쪽에 몰아줘",
+    "tags": [
+      "구도"
+    ]
+  },
+  {
+    "id": "art-leading-lines",
+    "deck": "art",
+    "term": "유도선",
+    "en": "Leading Lines",
+    "definition": "길, 난간, 빛줄기처럼 시선을 특정 지점으로 이끄는 선.",
+    "example": "다리 난간과 횃불 배치를 유도선으로 써서 성 정문으로 시선이 가게 해줘",
+    "tags": [
+      "구도"
+    ]
+  },
+  {
+    "id": "art-concept-art",
+    "deck": "art",
+    "term": "콘셉트 아트",
+    "en": "Concept Art",
+    "definition": "본 제작 전에 분위기와 디자인을 정하기 위해 그리는 그림.",
+    "example": "얼음 동굴 레벨의 콘셉트 아트를 낮, 밤 두 가지 분위기로 그려줘",
+    "tags": [
+      "제작"
+    ]
+  },
+  {
+    "id": "art-turnaround",
+    "deck": "art",
+    "term": "턴어라운드",
+    "en": "Turnaround Sheet",
+    "definition": "캐릭터를 앞, 옆, 뒤 등 여러 방향에서 그린 설정화. 3D 모델링 기준이 된다.",
+    "example": "주인공 기사 턴어라운드 시트를 정면, 측면, 후면, 3/4 뷰로 그려줘",
+    "tags": [
+      "제작"
+    ],
+    "aliases": [
+      "3면도"
+    ]
+  },
+  {
+    "id": "art-t-pose",
+    "deck": "art",
+    "term": "T포즈 / A포즈",
+    "en": "T-Pose / A-Pose",
+    "definition": "리깅을 위해 팔을 수평(T) 또는 비스듬히(A) 벌린 기본 자세.",
+    "example": "리깅하기 쉽게 캐릭터 모델을 A포즈로 만들어줘",
+    "tags": [
+      "제작"
+    ]
+  },
+  {
+    "id": "art-trim-sheet",
+    "deck": "art",
+    "term": "트림 시트",
+    "en": "Trim Sheet",
+    "definition": "몰딩, 테두리 같은 반복 디테일을 가로띠로 모은 텍스처. 여러 모델이 같이 쓴다.",
+    "example": "성 벽 장식은 트림 시트 하나로 만들어 여러 건물에 재사용해줘",
+    "tags": [
+      "텍스처"
+    ]
+  },
+  {
+    "id": "art-normal-map",
+    "deck": "art",
+    "term": "노멀 맵",
+    "en": "Normal Map",
+    "definition": "면의 방향 정보를 담아 평평한 면에 울퉁불퉁한 디테일이 있는 것처럼 보이게 하는 텍스처.",
+    "example": "로우 폴리 갑옷에 하이 폴리에서 구운 노멀 맵을 입혀 리벳 디테일을 살려줘",
+    "tags": [
+      "텍스처"
+    ]
+  },
+  {
+    "id": "art-tiling",
+    "deck": "art",
+    "term": "타일링",
+    "en": "Tiling / Seamless Texture",
+    "definition": "이음매 없이 반복해 붙일 수 있는 텍스처.",
+    "example": "바닥 돌 텍스처를 심리스 타일링으로 만들고 반복이 티 나지 않게 데칼로 변화를 줘",
+    "tags": [
+      "텍스처"
+    ]
+  },
+  {
+    "id": "art-modular",
+    "deck": "art",
+    "term": "모듈러 에셋",
+    "en": "Modular Assets",
+    "definition": "벽, 문, 기둥처럼 규격을 맞춘 조각을 조립해 공간을 만드는 방식.",
+    "example": "던전을 4m 그리드 모듈러 에셋(벽, 코너, 문, 계단)으로 조립할 수 있게 만들어줘",
+    "tags": [
+      "제작"
+    ]
+  },
+  {
+    "id": "art-parallax",
+    "deck": "art",
+    "term": "패럴랙스 스크롤링",
+    "en": "Parallax Scrolling",
+    "definition": "2D 배경을 여러 층으로 나눠 먼 층은 느리게, 가까운 층은 빠르게 움직여 깊이감을 주는 기법.",
+    "example": "횡스크롤 배경을 하늘, 산, 숲, 전경 4개 레이어로 나눠 패럴랙스 스크롤링을 적용해줘",
+    "tags": [
+      "2D"
+    ],
+    "aliases": [
+      "시차 스크롤"
+    ]
+  },
+  {
+    "id": "art-isometric",
+    "deck": "art",
+    "term": "아이소메트릭",
+    "en": "Isometric",
+    "definition": "세 축이 같은 각도로 보이는 비스듬한 위에서 내려다보는 투영. 원근이 없다.",
+    "example": "농장 게임 맵을 아이소메트릭 2:1 타일로 그려줘",
+    "tags": [
+      "투영"
+    ]
+  },
+  {
+    "id": "art-nine-slice",
+    "deck": "art",
+    "term": "9-슬라이스",
+    "en": "9-Slice",
+    "definition": "UI 이미지를 9칸으로 나눠 모서리는 유지하고 가운데만 늘리는 기법.",
+    "example": "대화창 테두리 이미지를 9-슬라이스로 만들어 크기가 바뀌어도 모서리가 깨지지 않게 해줘",
+    "tags": [
+      "2D"
+    ]
+  }
+]

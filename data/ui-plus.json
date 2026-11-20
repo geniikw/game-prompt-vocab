@@ -1,0 +1,321 @@
+[
+  {
+    "id": "ui-hud",
+    "deck": "ui",
+    "term": "HUD",
+    "en": "Heads-Up Display",
+    "definition": "게임 화면 위에 항상 떠 있는 체력, 미니맵, 탄약 같은 정보 표시.",
+    "example": "HUD는 왼쪽 위 체력과 스태미나, 오른쪽 아래 무기 슬롯만 두고 최소화해줘",
+    "tags": [
+      "기본"
+    ]
+  },
+  {
+    "id": "ui-diegetic",
+    "deck": "ui",
+    "term": "다이제틱 UI",
+    "en": "Diegetic UI",
+    "definition": "게임 세계 안에 실제로 존재하는 UI. 예: 캐릭터 등에 붙은 체력 게이지, 손목시계.",
+    "example": "체력을 HUD 대신 캐릭터 갑옷의 빛나는 줄로 보여주는 다이제틱 UI로 만들어줘",
+    "tags": [
+      "유형"
+    ]
+  },
+  {
+    "id": "ui-non-diegetic",
+    "deck": "ui",
+    "term": "논다이제틱 UI",
+    "en": "Non-diegetic UI",
+    "definition": "게임 세계 밖, 화면에만 존재하는 일반적인 UI.",
+    "example": "전투 정보는 논다이제틱 UI로 화면 하단에 깔끔하게 표시해줘",
+    "tags": [
+      "유형"
+    ]
+  },
+  {
+    "id": "ui-spatial-ui",
+    "deck": "ui",
+    "term": "공간 UI",
+    "en": "Spatial UI",
+    "definition": "게임 공간 속 위치에 떠 있지만 캐릭터는 인식하지 못하는 UI. 예: 머리 위 이름표.",
+    "example": "상호작용 가능한 문 위에 공간 UI로 [E] 열기 아이콘을 띄워줘",
+    "tags": [
+      "유형"
+    ]
+  },
+  {
+    "id": "ui-damage-number",
+    "deck": "ui",
+    "term": "데미지 숫자",
+    "en": "Damage Numbers",
+    "definition": "맞은 위치에서 튀어 오르는 데미지 수치.",
+    "example": "데미지 숫자가 위로 튀어 오르며 커졌다 작아지고, 치명타는 노란색으로 크게 띄워줘",
+    "tags": [
+      "피드백"
+    ],
+    "aliases": [
+      "플로팅 텍스트"
+    ]
+  },
+  {
+    "id": "ui-health-bar",
+    "deck": "ui",
+    "term": "체력바",
+    "en": "Health Bar",
+    "definition": "체력을 막대 모양으로 표시하는 UI.",
+    "example": "체력바가 깎일 때 흰색 잔상 바가 0.5초 뒤 따라 줄어들게 해줘",
+    "tags": [
+      "피드백"
+    ]
+  },
+  {
+    "id": "ui-delayed-bar",
+    "deck": "ui",
+    "term": "지연 감소 게이지",
+    "en": "Delayed Damage Bar",
+    "definition": "체력이 줄면 다른 색 잔상 바가 잠시 남았다가 천천히 따라 줄어드는 연출.",
+    "example": "보스 체력바에 지연 감소 게이지를 넣어 한 번에 얼마나 깎았는지 보이게 해줘",
+    "tags": [
+      "피드백"
+    ]
+  },
+  {
+    "id": "ui-hit-indicator",
+    "deck": "ui",
+    "term": "피격 방향 표시",
+    "en": "Damage Direction Indicator",
+    "definition": "어느 방향에서 맞았는지 화면에 표시하는 UI.",
+    "example": "화면 밖에서 맞으면 화면 가장자리에 붉은 화살표 피격 방향 표시를 띄워줘",
+    "tags": [
+      "피드백"
+    ]
+  },
+  {
+    "id": "ui-hitmarker",
+    "deck": "ui",
+    "term": "히트마커",
+    "en": "Hitmarker",
+    "definition": "사격이 적중했을 때 조준점에 잠깐 뜨는 표시.",
+    "example": "적중 시 조준점에 X자 히트마커를 0.1초 띄우고 처치 시에는 빨간색으로 해줘",
+    "tags": [
+      "피드백"
+    ]
+  },
+  {
+    "id": "ui-crosshair",
+    "deck": "ui",
+    "term": "조준선",
+    "en": "Crosshair / Reticle",
+    "definition": "화면 중앙의 조준 표시.",
+    "example": "이동 중에는 조준선이 벌어지고 멈추면 좁아지게 해서 탄 퍼짐을 보여줘",
+    "tags": [
+      "기본"
+    ],
+    "aliases": [
+      "레티클"
+    ]
+  },
+  {
+    "id": "ui-minimap",
+    "deck": "ui",
+    "term": "미니맵",
+    "en": "Minimap",
+    "definition": "주변 지형과 위치를 작게 보여 주는 지도 UI.",
+    "example": "원형 미니맵을 오른쪽 위에 두고 플레이어 방향으로 회전하게 해줘",
+    "tags": [
+      "기본"
+    ]
+  },
+  {
+    "id": "ui-compass",
+    "deck": "ui",
+    "term": "나침반 바",
+    "en": "Compass Bar",
+    "definition": "화면 위쪽에 방향과 목표 위치를 가로 띠로 보여 주는 UI.",
+    "example": "미니맵 대신 화면 상단에 나침반 바를 두고 퀘스트 목표 아이콘을 표시해줘",
+    "tags": [
+      "기본"
+    ]
+  },
+  {
+    "id": "ui-waypoint",
+    "deck": "ui",
+    "term": "웨이포인트",
+    "en": "Waypoint / Objective Marker",
+    "definition": "목표 지점을 가리키는 표식과 거리 표시.",
+    "example": "퀘스트 목표에 웨이포인트를 띄우고 남은 거리를 미터로 표시해줘",
+    "tags": [
+      "안내"
+    ]
+  },
+  {
+    "id": "ui-radial-menu",
+    "deck": "ui",
+    "term": "원형 메뉴",
+    "en": "Radial Menu",
+    "definition": "버튼을 누르면 둥글게 펼쳐져 방향으로 고르는 메뉴.",
+    "example": "아이템 선택을 원형 메뉴로 만들고 열려 있는 동안 게임을 슬로우 모션으로 해줘",
+    "tags": [
+      "메뉴"
+    ],
+    "aliases": [
+      "라디얼 메뉴",
+      "휠 메뉴"
+    ]
+  },
+  {
+    "id": "ui-tooltip",
+    "deck": "ui",
+    "term": "툴팁",
+    "en": "Tooltip",
+    "definition": "대상 위에 올리거나 길게 누르면 뜨는 짧은 설명 상자.",
+    "example": "아이템을 길게 누르면 능력치 비교가 포함된 툴팁이 뜨게 해줘",
+    "tags": [
+      "메뉴"
+    ]
+  },
+  {
+    "id": "ui-modal",
+    "deck": "ui",
+    "term": "모달 창",
+    "en": "Modal Dialog",
+    "definition": "닫기 전까지 뒤 화면을 조작할 수 없게 막는 팝업 창.",
+    "example": "아이템 판매 확인은 모달 창으로 띄우고 바깥을 누르면 취소되게 해줘",
+    "tags": [
+      "메뉴"
+    ]
+  },
+  {
+    "id": "ui-toast",
+    "deck": "ui",
+    "term": "토스트 알림",
+    "en": "Toast Notification",
+    "definition": "잠깐 떴다가 저절로 사라지는 짧은 알림.",
+    "example": "아이템을 얻으면 화면 오른쪽에 토스트 알림이 2초 떴다 사라지게 해줘",
+    "tags": [
+      "피드백"
+    ]
+  },
+  {
+    "id": "ui-onboarding",
+    "deck": "ui",
+    "term": "온보딩",
+    "en": "Onboarding",
+    "definition": "처음 하는 플레이어가 조작과 규칙을 익히도록 이끄는 과정.",
+    "example": "튜토리얼 창 대신 플레이하면서 배우는 온보딩으로 첫 10분을 설계해줘",
+    "tags": [
+      "UX"
+    ],
+    "aliases": [
+      "튜토리얼"
+    ]
+  },
+  {
+    "id": "ui-tutorial-prompt",
+    "deck": "ui",
+    "term": "버튼 프롬프트",
+    "en": "Button Prompt",
+    "definition": "지금 누를 수 있는 버튼을 화면에 보여 주는 안내.",
+    "example": "사다리 근처에 가면 화면에 [A] 오르기 버튼 프롬프트를 띄워줘",
+    "tags": [
+      "UX"
+    ]
+  },
+  {
+    "id": "ui-qte",
+    "deck": "ui",
+    "term": "QTE",
+    "en": "Quick Time Event",
+    "definition": "연출 중 화면에 뜬 버튼을 제때 눌러야 하는 이벤트.",
+    "example": "추락하는 장면에서 QTE로 연타하면 절벽을 붙잡게 해줘",
+    "tags": [
+      "UX"
+    ]
+  },
+  {
+    "id": "ui-juice-ui",
+    "deck": "ui",
+    "term": "UI 트윈",
+    "en": "UI Tween / Easing",
+    "definition": "UI가 나타나고 사라질 때 부드럽게 움직이는 보간 애니메이션.",
+    "example": "보상 창이 아래에서 튕기듯 올라오는 백 이즈 아웃 트윈으로 나타나게 해줘",
+    "tags": [
+      "연출"
+    ],
+    "aliases": [
+      "이징"
+    ]
+  },
+  {
+    "id": "ui-safe-area",
+    "deck": "ui",
+    "term": "세이프 에어리어",
+    "en": "Safe Area",
+    "definition": "노치, 둥근 모서리, TV 가장자리에 잘리지 않는 화면 안쪽 영역.",
+    "example": "모바일에서 버튼이 노치에 가리지 않게 세이프 에어리어 안에 배치해줘",
+    "tags": [
+      "모바일"
+    ]
+  },
+  {
+    "id": "ui-virtual-joystick",
+    "deck": "ui",
+    "term": "가상 조이스틱",
+    "en": "Virtual Joystick",
+    "definition": "터치 화면에 표시되는 조작용 스틱.",
+    "example": "왼쪽 화면 어디를 눌러도 그 자리에 가상 조이스틱이 생기는 플로팅 방식으로 해줘",
+    "tags": [
+      "모바일"
+    ]
+  },
+  {
+    "id": "ui-fitts",
+    "deck": "ui",
+    "term": "피츠의 법칙",
+    "en": "Fitts's Law",
+    "definition": "버튼이 크고 가까울수록 빨리 누를 수 있다는 법칙. 자주 쓰는 버튼일수록 크게, 엄지 가까이.",
+    "example": "피츠의 법칙에 따라 공격 버튼을 가장 크게 오른쪽 엄지 위치에 두고 스킬 버튼은 그 주위에 둘러줘",
+    "tags": [
+      "모바일"
+    ]
+  },
+  {
+    "id": "ui-feedback-loop",
+    "deck": "ui",
+    "term": "피드백",
+    "en": "UI Feedback",
+    "definition": "입력에 대해 소리, 움직임, 색 변화로 즉시 반응을 돌려주는 것.",
+    "example": "버튼을 누르면 살짝 눌리는 스케일 애니메이션과 클릭음으로 피드백을 줘",
+    "tags": [
+      "UX"
+    ]
+  },
+  {
+    "id": "ui-red-dot",
+    "deck": "ui",
+    "term": "레드닷 알림",
+    "en": "Notification Badge",
+    "definition": "새 소식이나 할 일이 있는 메뉴에 붙는 빨간 점.",
+    "example": "새 장비를 얻으면 가방 아이콘에 레드닷을 띄우고 확인하면 사라지게 해줘",
+    "tags": [
+      "UX"
+    ],
+    "aliases": [
+      "뱃지"
+    ]
+  },
+  {
+    "id": "ui-inventory-grid",
+    "deck": "ui",
+    "term": "그리드 인벤토리",
+    "en": "Grid Inventory",
+    "definition": "칸으로 나뉜 가방에 아이템 크기만큼 칸을 차지하게 넣는 인벤토리 방식.",
+    "example": "아이템마다 1x2, 2x3처럼 크기가 다른 그리드 인벤토리로 만들고 회전 배치도 가능하게 해줘",
+    "tags": [
+      "메뉴"
+    ],
+    "aliases": [
+      "테트리스 인벤토리"
+    ]
+  }
+]

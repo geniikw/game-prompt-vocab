@@ -1,0 +1,320 @@
+[
+  {
+    "id": "level-critical-path",
+    "deck": "level",
+    "term": "크리티컬 패스",
+    "en": "Critical Path",
+    "definition": "게임을 끝내기 위해 반드시 지나야 하는 주 경로.",
+    "example": "크리티컬 패스는 일직선으로 두고, 옆으로 보상이 있는 샛길 2개를 붙여줘",
+    "tags": [
+      "동선"
+    ],
+    "aliases": [
+      "메인 동선"
+    ]
+  },
+  {
+    "id": "level-golden-path",
+    "deck": "level",
+    "term": "골든 패스",
+    "en": "Golden Path",
+    "definition": "디자이너가 의도한 이상적인 플레이 경로.",
+    "example": "골든 패스를 따라가면 전투-퍼즐-휴식이 번갈아 나오도록 배치해줘",
+    "tags": [
+      "동선"
+    ]
+  },
+  {
+    "id": "level-weenie",
+    "deck": "level",
+    "term": "랜드마크(위니)",
+    "en": "Landmark / Weenie",
+    "definition": "멀리서도 보여 플레이어가 그쪽으로 가고 싶게 만드는 큰 지형지물.",
+    "example": "맵 중앙에 빛나는 탑을 랜드마크로 세워 어디서든 방향을 잡을 수 있게 해줘",
+    "tags": [
+      "유도"
+    ]
+  },
+  {
+    "id": "level-breadcrumbs",
+    "deck": "level",
+    "term": "브레드크럼",
+    "en": "Breadcrumbing",
+    "definition": "코인, 불빛, 발자국처럼 작은 단서를 이어 놓아 길을 자연스럽게 안내하는 기법.",
+    "example": "동굴 안쪽으로 빛나는 버섯을 브레드크럼처럼 이어 배치해서 길을 안내해줘",
+    "tags": [
+      "유도"
+    ]
+  },
+  {
+    "id": "level-affordance",
+    "deck": "level",
+    "term": "어포던스",
+    "en": "Affordance",
+    "definition": "생김새만 보고 어떻게 상호작용할지 알 수 있게 하는 성질. 예: 기어오를 수 있는 벽은 노란 페인트.",
+    "example": "기어오를 수 있는 바위 모서리는 흰 페인트 자국으로 어포던스를 표시해줘",
+    "tags": [
+      "유도"
+    ]
+  },
+  {
+    "id": "level-gating",
+    "deck": "level",
+    "term": "게이팅",
+    "en": "Gating",
+    "definition": "열쇠, 능력, 진행도 같은 조건을 채워야 다음 구역에 갈 수 있게 막는 것.",
+    "example": "이중 점프를 얻기 전에는 높은 절벽으로 게이팅해서 다음 지역에 못 가게 해줘",
+    "tags": [
+      "구조"
+    ]
+  },
+  {
+    "id": "level-metroidvania",
+    "deck": "level",
+    "term": "메트로배니아 구조",
+    "en": "Metroidvania Structure",
+    "definition": "능력을 얻으며 막혔던 길이 열리고 맵을 되돌아가며 탐험하는 구조.",
+    "example": "메트로배니아 구조로 갈고리 능력을 얻으면 초반 구역의 숨겨진 길이 열리게 맵을 설계해줘",
+    "tags": [
+      "구조"
+    ]
+  },
+  {
+    "id": "level-hub-spoke",
+    "deck": "level",
+    "term": "허브 앤 스포크",
+    "en": "Hub and Spoke",
+    "definition": "중앙 거점(허브)에서 여러 갈래 레벨(스포크)로 뻗어 나가는 구조.",
+    "example": "마을을 허브로 두고 불, 물, 바람 던전 세 갈래가 스포크처럼 연결되게 해줘",
+    "tags": [
+      "구조"
+    ]
+  },
+  {
+    "id": "level-linear",
+    "deck": "level",
+    "term": "선형 레벨",
+    "en": "Linear Level",
+    "definition": "정해진 한 방향으로 진행하는 레벨.",
+    "example": "튜토리얼은 선형 레벨로 만들어 길을 잃지 않게 해줘",
+    "tags": [
+      "구조"
+    ]
+  },
+  {
+    "id": "level-open-world",
+    "deck": "level",
+    "term": "오픈 월드",
+    "en": "Open World",
+    "definition": "넓은 맵을 자유롭게 돌아다니며 순서 없이 진행할 수 있는 구조.",
+    "example": "오픈 월드 맵에 랜드마크를 3km 간격으로 배치해 시야에 늘 목적지가 있게 해줘",
+    "tags": [
+      "구조"
+    ]
+  },
+  {
+    "id": "level-loop-back",
+    "deck": "level",
+    "term": "숏컷(루프백)",
+    "en": "Shortcut / Loop-back",
+    "definition": "먼 길을 돌아 진행한 뒤 시작 지점 근처로 이어지는 지름길을 여는 구조.",
+    "example": "구역 끝에서 엘리베이터를 작동하면 첫 화톳불로 돌아가는 숏컷이 열리게 해줘",
+    "tags": [
+      "구조"
+    ]
+  },
+  {
+    "id": "level-choke-point",
+    "deck": "level",
+    "term": "초크 포인트",
+    "en": "Choke Point",
+    "definition": "좁아서 통과하려면 반드시 지나야 하는 길목. 전투가 몰린다.",
+    "example": "거점 앞에 다리 하나뿐인 초크 포인트를 두고 양쪽에 엄폐물을 배치해줘",
+    "tags": [
+      "전투 공간"
+    ]
+  },
+  {
+    "id": "level-arena",
+    "deck": "level",
+    "term": "아레나",
+    "en": "Combat Arena",
+    "definition": "전투를 위해 설계한 닫힌 공간.",
+    "example": "원형 아레나 안에 기둥 4개를 두어 보스의 돌진을 피할 엄폐 수단을 만들어줘",
+    "tags": [
+      "전투 공간"
+    ]
+  },
+  {
+    "id": "level-cover",
+    "deck": "level",
+    "term": "엄폐물",
+    "en": "Cover",
+    "definition": "적의 공격을 막아 주는 벽, 상자 등. 낮은 엄폐와 높은 엄폐가 있다.",
+    "example": "전투 구역에 낮은 엄폐물과 부서지는 엄폐물을 섞어 배치해줘",
+    "tags": [
+      "전투 공간"
+    ]
+  },
+  {
+    "id": "level-sightline",
+    "deck": "level",
+    "term": "시야선",
+    "en": "Sightline",
+    "definition": "한 지점에서 다른 지점이 보이는 직선 시야. 저격, 유도에 중요하다.",
+    "example": "저격수 위치에서 광장 전체가 보이는 긴 시야선을 만들되 중간에 끊는 엄폐물을 둬줘",
+    "tags": [
+      "전투 공간"
+    ]
+  },
+  {
+    "id": "level-flanking",
+    "deck": "level",
+    "term": "측면 우회로",
+    "en": "Flanking Route",
+    "definition": "적을 옆이나 뒤에서 칠 수 있게 돌아가는 길.",
+    "example": "정면 돌파 말고 오른쪽 수로를 통해 적 진지 뒤로 가는 측면 우회로를 만들어줘",
+    "tags": [
+      "전투 공간"
+    ]
+  },
+  {
+    "id": "level-verticality",
+    "deck": "level",
+    "term": "수직성",
+    "en": "Verticality",
+    "definition": "높낮이를 활용한 공간 구성. 위아래로 이동하고 싸울 수 있다.",
+    "example": "시장 레벨에 지붕, 발코니, 지하 수로 3층 구조로 수직성을 줘",
+    "tags": [
+      "공간"
+    ]
+  },
+  {
+    "id": "level-pacing",
+    "deck": "level",
+    "term": "페이싱",
+    "en": "Pacing",
+    "definition": "긴장과 휴식이 오가는 리듬. 전투-탐험-휴식을 어떤 간격으로 배치할지.",
+    "example": "긴 전투 뒤에는 반드시 적이 없는 탐험 구간을 넣어 페이싱을 조절해줘",
+    "tags": [
+      "흐름"
+    ]
+  },
+  {
+    "id": "level-intensity-curve",
+    "deck": "level",
+    "term": "긴장도 곡선",
+    "en": "Intensity Curve",
+    "definition": "레벨 진행에 따른 긴장도를 그래프로 그린 것. 점점 올라가다 클라이맥스에서 정점.",
+    "example": "긴장도 곡선이 톱니 모양으로 오르다 보스전에서 정점을 찍도록 전투 배치를 조정해줘",
+    "tags": [
+      "흐름"
+    ]
+  },
+  {
+    "id": "level-safe-room",
+    "deck": "level",
+    "term": "세이프 룸",
+    "en": "Safe Room",
+    "definition": "적이 없고 저장, 회복, 정비를 할 수 있는 휴식 공간.",
+    "example": "보스방 바로 앞에 세이프 룸을 두고 저장 지점과 상인을 배치해줘",
+    "tags": [
+      "흐름"
+    ]
+  },
+  {
+    "id": "level-set-piece",
+    "deck": "level",
+    "term": "세트피스",
+    "en": "Set Piece",
+    "definition": "무너지는 다리, 추격전처럼 특별히 연출된 대형 이벤트 장면.",
+    "example": "다리를 건너는 중 다리가 무너지며 달려서 탈출하는 세트피스를 만들어줘",
+    "tags": [
+      "연출"
+    ]
+  },
+  {
+    "id": "level-environmental-storytelling",
+    "deck": "level",
+    "term": "환경 스토리텔링",
+    "en": "Environmental Storytelling",
+    "definition": "대사 없이 공간에 놓인 물건과 흔적으로 이야기를 전하는 기법.",
+    "example": "버려진 집에 식은 식탁, 부서진 문, 아이 그림을 배치해 환경 스토리텔링으로 사연을 전해줘",
+    "tags": [
+      "연출"
+    ]
+  },
+  {
+    "id": "level-blockout",
+    "deck": "level",
+    "term": "블록아웃",
+    "en": "Blockout / Greybox",
+    "definition": "아트 없이 단순한 상자로 레벨 형태를 먼저 만들어 플레이를 시험하는 단계.",
+    "example": "이 레벨을 먼저 회색 상자로 블록아웃해서 점프 거리와 동선을 검증해줘",
+    "tags": [
+      "제작"
+    ],
+    "aliases": [
+      "그레이박스",
+      "화이트박스"
+    ]
+  },
+  {
+    "id": "level-kishotenketsu",
+    "deck": "level",
+    "term": "기승전결 레벨",
+    "en": "Kishōtenketsu Level Design",
+    "definition": "새 요소를 소개하고(기) 발전시키고(승) 비틀고(전) 마무리하는(결) 4단계 레벨 구성.",
+    "example": "움직이는 발판 기믹을 기승전결로 구성해서 4단계로 난도가 오르게 해줘",
+    "tags": [
+      "흐름"
+    ]
+  },
+  {
+    "id": "level-secret",
+    "deck": "level",
+    "term": "히든 에어리어",
+    "en": "Secret Area",
+    "definition": "찾기 어렵게 숨겨 둔 보상 공간.",
+    "example": "폭포 뒤에 히든 에어리어를 숨기고 물소리 사이로 미세한 반짝임으로 힌트를 줘",
+    "tags": [
+      "보상"
+    ],
+    "aliases": [
+      "비밀 장소"
+    ]
+  },
+  {
+    "id": "level-spawn",
+    "deck": "level",
+    "term": "스폰 포인트",
+    "en": "Spawn Point",
+    "definition": "플레이어나 적이 생성되는 위치.",
+    "example": "적 스폰 포인트를 플레이어 시야 밖에 두고 등장할 때 땅에서 기어 나오는 연출을 줘",
+    "tags": [
+      "시스템"
+    ]
+  },
+  {
+    "id": "level-checkpoint",
+    "deck": "level",
+    "term": "체크포인트",
+    "en": "Checkpoint",
+    "definition": "죽었을 때 다시 시작하는 지점.",
+    "example": "긴 점프 구간 중간에 체크포인트를 둬서 떨어져도 처음부터 하지 않게 해줘",
+    "tags": [
+      "시스템"
+    ]
+  },
+  {
+    "id": "level-invisible-wall",
+    "deck": "level",
+    "term": "투명 벽",
+    "en": "Invisible Wall",
+    "definition": "눈에 보이지 않는 이동 제한 벽. 자연스러운 지형으로 대체하는 게 좋다.",
+    "example": "투명 벽 대신 낮은 절벽과 덤불로 맵 경계를 자연스럽게 막아줘",
+    "tags": [
+      "시스템"
+    ]
+  }
+]

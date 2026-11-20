@@ -1,0 +1,297 @@
+[
+  {
+    "id": "lighting-three-point",
+    "deck": "lighting",
+    "term": "3점 조명",
+    "en": "Three-Point Lighting",
+    "definition": "키 라이트, 필 라이트, 백 라이트 세 개로 인물을 비추는 기본 조명 구성.",
+    "example": "캐릭터 선택 화면은 3점 조명으로 구성하고 백 라이트를 강하게 해서 실루엣이 배경과 분리되게 해줘",
+    "tags": [
+      "기본"
+    ]
+  },
+  {
+    "id": "lighting-key-light",
+    "deck": "lighting",
+    "term": "키 라이트",
+    "en": "Key Light",
+    "definition": "장면의 주된 빛. 가장 밝고 그림자 방향을 결정한다.",
+    "example": "키 라이트를 왼쪽 위 45도에서 따뜻한 색으로 비춰줘",
+    "tags": [
+      "기본"
+    ]
+  },
+  {
+    "id": "lighting-fill-light",
+    "deck": "lighting",
+    "term": "필 라이트",
+    "en": "Fill Light",
+    "definition": "키 라이트가 만든 그림자를 부드럽게 채우는 보조 빛.",
+    "example": "필 라이트를 약하게 넣어 얼굴 그림자가 완전히 까맣게 묻히지 않게 해줘",
+    "tags": [
+      "기본"
+    ]
+  },
+  {
+    "id": "lighting-rim-light",
+    "deck": "lighting",
+    "term": "림 라이트",
+    "en": "Rim Light / Back Light",
+    "definition": "피사체 뒤에서 비춰 윤곽선을 밝게 만드는 빛.",
+    "example": "어두운 던전에서도 플레이어가 보이도록 캐릭터에 푸른 림 라이트를 넣어줘",
+    "tags": [
+      "기본"
+    ],
+    "aliases": [
+      "백 라이트",
+      "역광"
+    ]
+  },
+  {
+    "id": "lighting-high-key",
+    "deck": "lighting",
+    "term": "하이 키",
+    "en": "High-Key Lighting",
+    "definition": "전체적으로 밝고 그림자가 적은 조명. 밝고 경쾌한 분위기.",
+    "example": "마을 장면은 하이 키 조명으로 밝고 그림자가 연하게 해줘",
+    "tags": [
+      "분위기"
+    ]
+  },
+  {
+    "id": "lighting-low-key",
+    "deck": "lighting",
+    "term": "로우 키",
+    "en": "Low-Key Lighting",
+    "definition": "어둡고 명암 대비가 강한 조명. 긴장감, 공포 분위기.",
+    "example": "보스 방은 로우 키 조명으로 대부분 어둡고 보스 얼굴만 아래에서 비춰줘",
+    "tags": [
+      "분위기"
+    ]
+  },
+  {
+    "id": "lighting-chiaroscuro",
+    "deck": "lighting",
+    "term": "키아로스쿠로",
+    "en": "Chiaroscuro",
+    "definition": "빛과 어둠의 극단적인 대비로 입체감과 극적인 느낌을 주는 기법.",
+    "example": "컷신에서 키아로스쿠로처럼 촛불 하나만으로 얼굴 반쪽만 밝게 비춰줘",
+    "tags": [
+      "분위기"
+    ],
+    "aliases": [
+      "명암법"
+    ]
+  },
+  {
+    "id": "lighting-golden-hour",
+    "deck": "lighting",
+    "term": "골든 아워",
+    "en": "Golden Hour",
+    "definition": "해 뜬 직후나 해 지기 직전의 낮고 따뜻한 황금빛.",
+    "example": "엔딩 장면은 골든 아워 조명으로 길게 늘어진 그림자와 주황빛 하늘을 만들어줘",
+    "tags": [
+      "분위기"
+    ]
+  },
+  {
+    "id": "lighting-blue-hour",
+    "deck": "lighting",
+    "term": "블루 아워",
+    "en": "Blue Hour",
+    "definition": "해가 진 직후 하늘이 짙은 푸른빛인 시간대의 조명.",
+    "example": "도시 레벨을 블루 아워로 설정하고 가로등 불빛만 따뜻한 색으로 대비시켜줘",
+    "tags": [
+      "분위기"
+    ]
+  },
+  {
+    "id": "lighting-gi",
+    "deck": "lighting",
+    "term": "전역 조명",
+    "en": "Global Illumination (GI)",
+    "definition": "빛이 표면에 반사되어 다른 곳을 간접적으로 밝히는 것까지 계산하는 조명.",
+    "example": "붉은 카펫에서 반사된 빛이 벽을 은은하게 붉게 물들이도록 GI를 켜줘",
+    "tags": [
+      "렌더링"
+    ],
+    "aliases": [
+      "간접광"
+    ]
+  },
+  {
+    "id": "lighting-ao",
+    "deck": "lighting",
+    "term": "앰비언트 오클루전",
+    "en": "Ambient Occlusion (AO)",
+    "definition": "구석이나 물체가 맞닿은 틈처럼 빛이 덜 닿는 곳을 어둡게 해 입체감을 주는 기법.",
+    "example": "SSAO를 켜서 벽과 바닥이 만나는 모서리에 자연스러운 그늘이 지게 해줘",
+    "tags": [
+      "렌더링"
+    ]
+  },
+  {
+    "id": "lighting-baked",
+    "deck": "lighting",
+    "term": "라이트 베이크",
+    "en": "Light Baking / Lightmap",
+    "definition": "조명 결과를 미리 계산해 텍스처(라이트맵)에 저장하는 방식. 가볍지만 움직이지 않는다.",
+    "example": "정적인 건물 조명은 라이트맵으로 베이크하고 캐릭터만 실시간 조명을 받게 해줘",
+    "tags": [
+      "렌더링"
+    ]
+  },
+  {
+    "id": "lighting-volumetric-fog",
+    "deck": "lighting",
+    "term": "볼류메트릭 포그",
+    "en": "Volumetric Fog",
+    "definition": "빛이 안개 속에서 산란하는 모습까지 표현하는 입체 안개.",
+    "example": "지하 묘지에 볼류메트릭 포그를 깔고 횃불 주변으로 빛이 퍼져 보이게 해줘",
+    "tags": [
+      "분위기"
+    ]
+  },
+  {
+    "id": "lighting-bloom",
+    "deck": "lighting",
+    "term": "블룸",
+    "en": "Bloom",
+    "definition": "밝은 부분의 빛이 주변으로 번져 보이게 하는 후처리 효과.",
+    "example": "마법 이펙트에만 블룸이 강하게 걸리도록 임계값을 높게 잡아줘",
+    "tags": [
+      "후처리"
+    ],
+    "aliases": [
+      "빛 번짐"
+    ]
+  },
+  {
+    "id": "lighting-color-grading",
+    "deck": "lighting",
+    "term": "컬러 그레이딩",
+    "en": "Color Grading / LUT",
+    "definition": "화면 전체의 색감을 조정해 분위기를 통일하는 후처리.",
+    "example": "사막 지역은 주황-청록 컬러 그레이딩을 LUT로 적용해 영화 같은 색감을 줘",
+    "tags": [
+      "후처리"
+    ]
+  },
+  {
+    "id": "lighting-dof",
+    "deck": "lighting",
+    "term": "피사계 심도",
+    "en": "Depth of Field (DoF)",
+    "definition": "초점이 맞는 거리만 선명하고 앞뒤는 흐려지는 효과.",
+    "example": "대화 장면에서 피사계 심도를 얕게 해서 말하는 캐릭터만 선명하고 배경은 흐리게 해줘",
+    "tags": [
+      "후처리"
+    ],
+    "aliases": [
+      "아웃포커싱",
+      "보케"
+    ]
+  },
+  {
+    "id": "lighting-motion-blur",
+    "deck": "lighting",
+    "term": "모션 블러",
+    "en": "Motion Blur",
+    "definition": "빠르게 움직이는 물체나 카메라가 흐려 보이게 하는 효과.",
+    "example": "대시할 때만 카메라 모션 블러를 강하게 켜고 평소에는 꺼줘",
+    "tags": [
+      "후처리"
+    ]
+  },
+  {
+    "id": "lighting-vignette",
+    "deck": "lighting",
+    "term": "비네트",
+    "en": "Vignette",
+    "definition": "화면 가장자리를 어둡게 해 시선을 중앙으로 모으는 효과.",
+    "example": "체력이 20% 이하일 때 붉은 비네트가 심장 박동에 맞춰 깜빡이게 해줘",
+    "tags": [
+      "후처리"
+    ]
+  },
+  {
+    "id": "lighting-chromatic",
+    "deck": "lighting",
+    "term": "색수차",
+    "en": "Chromatic Aberration",
+    "definition": "가장자리에서 빨강·초록·파랑이 어긋나 보이는 렌즈 효과. 충격, 혼란 표현에 쓴다.",
+    "example": "강한 피격 순간에 0.2초 동안 색수차를 세게 걸어 충격을 강조해줘",
+    "tags": [
+      "후처리"
+    ]
+  },
+  {
+    "id": "lighting-tonemapping",
+    "deck": "lighting",
+    "term": "톤 매핑",
+    "en": "Tone Mapping / HDR",
+    "definition": "넓은 밝기 범위(HDR)를 화면이 표시할 수 있는 범위로 압축하는 과정.",
+    "example": "ACES 톤 매핑을 써서 밝은 하늘이 하얗게 날아가지 않게 해줘",
+    "tags": [
+      "렌더링"
+    ]
+  },
+  {
+    "id": "lighting-eye-adaptation",
+    "deck": "lighting",
+    "term": "노출 적응",
+    "en": "Eye Adaptation / Auto Exposure",
+    "definition": "어두운 곳에서 밝은 곳으로 나갈 때 눈이 적응하듯 노출이 서서히 바뀌는 효과.",
+    "example": "동굴에서 나올 때 화면이 하얗게 밝았다가 2초 동안 노출 적응되게 해줘",
+    "tags": [
+      "후처리"
+    ]
+  },
+  {
+    "id": "lighting-ssr",
+    "deck": "lighting",
+    "term": "스크린 스페이스 반사",
+    "en": "Screen Space Reflection (SSR)",
+    "definition": "화면에 보이는 정보로 바닥이나 물에 반사를 그리는 기법.",
+    "example": "비 온 뒤 젖은 도로에 네온사인이 비치도록 SSR을 켜줘",
+    "tags": [
+      "렌더링"
+    ]
+  },
+  {
+    "id": "lighting-pbr",
+    "deck": "lighting",
+    "term": "PBR",
+    "en": "Physically Based Rendering",
+    "definition": "실제 물리 법칙에 가깝게 빛과 재질을 계산하는 렌더링 방식. 금속성, 거칠기 값을 쓴다.",
+    "example": "갑옷은 PBR로 metallic 1, roughness 0.3으로 하고 녹슨 부분만 거칠기를 올려줘",
+    "tags": [
+      "재질"
+    ]
+  },
+  {
+    "id": "lighting-emissive",
+    "deck": "lighting",
+    "term": "이미시브",
+    "en": "Emissive",
+    "definition": "스스로 빛을 내는 것처럼 보이게 하는 재질 속성.",
+    "example": "로봇 눈과 갑옷 라인을 파란 이미시브로 빛나게 하고 블룸이 걸리게 해줘",
+    "tags": [
+      "재질"
+    ],
+    "aliases": [
+      "자체 발광"
+    ]
+  },
+  {
+    "id": "lighting-shadow-cascade",
+    "deck": "lighting",
+    "term": "캐스케이드 섀도우",
+    "en": "Cascaded Shadow Maps",
+    "definition": "거리별로 그림자 해상도를 나눠 가까운 곳은 선명하게, 먼 곳은 흐리게 그리는 기법.",
+    "example": "오픈 필드 그림자는 캐스케이드 4단계로 나누고 가까운 20m는 선명하게 해줘",
+    "tags": [
+      "렌더링"
+    ]
+  }
+]

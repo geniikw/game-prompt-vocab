@@ -1,0 +1,320 @@
+[
+  {
+    "id": "vfx-particle",
+    "deck": "vfx",
+    "term": "파티클",
+    "en": "Particle System",
+    "definition": "작은 입자 여러 개를 뿌려 불, 연기, 불꽃 같은 효과를 만드는 시스템.",
+    "example": "검이 부딪힐 때 주황색 불꽃 파티클 20개가 원뿔 모양으로 튀고 0.3초 만에 사라지게 해줘",
+    "tags": [
+      "기본"
+    ]
+  },
+  {
+    "id": "vfx-emitter",
+    "deck": "vfx",
+    "term": "이미터",
+    "en": "Emitter",
+    "definition": "파티클을 생성하는 발생원. 위치, 모양, 개수, 속도를 정한다.",
+    "example": "이미터 모양을 원형 링으로 바꿔서 캐릭터 발밑에서 먼지가 바깥으로 퍼지게 해줘",
+    "tags": [
+      "기본"
+    ]
+  },
+  {
+    "id": "vfx-burst",
+    "deck": "vfx",
+    "term": "버스트",
+    "en": "Burst",
+    "definition": "파티클을 한순간에 한꺼번에 뿜어내는 방식.",
+    "example": "착지 순간 먼지 파티클을 버스트로 30개 터뜨리고 이후엔 생성하지 마",
+    "tags": [
+      "기본"
+    ]
+  },
+  {
+    "id": "vfx-sprite-sheet",
+    "deck": "vfx",
+    "term": "스프라이트 시트",
+    "en": "Sprite Sheet / Flipbook",
+    "definition": "여러 프레임 그림을 한 장에 모아 순서대로 재생하는 텍스처. 폭발, 연기에 쓴다.",
+    "example": "8x8 스프라이트 시트 폭발 애니메이션을 플립북으로 재생하고 마지막 프레임에서 페이드 아웃해줘",
+    "tags": [
+      "텍스처"
+    ],
+    "aliases": [
+      "플립북"
+    ]
+  },
+  {
+    "id": "vfx-trail",
+    "deck": "vfx",
+    "term": "트레일",
+    "en": "Trail",
+    "definition": "움직이는 물체가 지나간 자리에 남는 꼬리 모양 이펙트.",
+    "example": "검 끝에 0.15초 길이의 하얀 트레일을 달고 끝으로 갈수록 투명해지게 해줘",
+    "tags": [
+      "모션"
+    ]
+  },
+  {
+    "id": "vfx-ribbon",
+    "deck": "vfx",
+    "term": "리본",
+    "en": "Ribbon",
+    "definition": "파티클들을 이어 띠 모양으로 그리는 이펙트. 휘감는 마법, 궤적에 쓴다.",
+    "example": "캐릭터 주위를 나선형으로 도는 파란 리본 이펙트를 3줄 만들어줘",
+    "tags": [
+      "모션"
+    ]
+  },
+  {
+    "id": "vfx-impact-vfx",
+    "deck": "vfx",
+    "term": "임팩트 이펙트",
+    "en": "Impact VFX",
+    "definition": "타격이 닿은 지점에 터지는 짧고 강한 이펙트.",
+    "example": "타격 지점에 흰 섬광 → 주황 스파크 → 연기 순으로 0.2초 안에 끝나는 임팩트 이펙트를 넣어줘",
+    "tags": [
+      "타격"
+    ]
+  },
+  {
+    "id": "vfx-shockwave",
+    "deck": "vfx",
+    "term": "충격파",
+    "en": "Shockwave",
+    "definition": "중심에서 원형으로 퍼져 나가는 고리 모양 파동 이펙트.",
+    "example": "내려찍기 착지 지점에서 바닥을 따라 퍼지는 충격파 링과 화면 왜곡을 넣어줘",
+    "tags": [
+      "타격"
+    ]
+  },
+  {
+    "id": "vfx-distortion",
+    "deck": "vfx",
+    "term": "왜곡(굴절)",
+    "en": "Heat Distortion / Refraction",
+    "definition": "뒤 배경을 일그러뜨려 열기, 충격파, 투명체를 표현하는 효과.",
+    "example": "불기둥 주변에 아지랑이처럼 일렁이는 굴절 왜곡을 넣어줘",
+    "tags": [
+      "셰이더"
+    ],
+    "aliases": [
+      "아지랑이"
+    ]
+  },
+  {
+    "id": "vfx-dissolve",
+    "deck": "vfx",
+    "term": "디졸브",
+    "en": "Dissolve",
+    "definition": "노이즈 텍스처를 기준으로 물체가 조각조각 타들어가듯 사라지는 효과.",
+    "example": "죽은 적이 발끝부터 디졸브로 사라지고, 경계선에는 주황빛 불씨 테두리가 보이게 해줘",
+    "tags": [
+      "셰이더"
+    ]
+  },
+  {
+    "id": "vfx-fresnel",
+    "deck": "vfx",
+    "term": "프레넬 효과",
+    "en": "Fresnel",
+    "definition": "물체 가장자리(윤곽)로 갈수록 밝게 빛나는 효과. 보호막, 홀로그램에 쓴다.",
+    "example": "보호막 구체에 하늘색 프레넬 림을 넣어 가장자리만 빛나고 가운데는 투명하게 해줘",
+    "tags": [
+      "셰이더"
+    ],
+    "aliases": [
+      "림 라이트 효과"
+    ]
+  },
+  {
+    "id": "vfx-uv-scroll",
+    "deck": "vfx",
+    "term": "UV 스크롤",
+    "en": "UV Panning / Scrolling",
+    "definition": "텍스처 좌표를 계속 움직여 흐르는 느낌을 내는 기법. 물, 에너지 흐름에 쓴다.",
+    "example": "검날에 번개 텍스처를 UV 스크롤로 끝 방향으로 흐르게 해서 전기가 흐르는 느낌을 줘",
+    "tags": [
+      "셰이더"
+    ],
+    "aliases": [
+      "패닝"
+    ]
+  },
+  {
+    "id": "vfx-additive",
+    "deck": "vfx",
+    "term": "가산 블렌딩",
+    "en": "Additive Blending",
+    "definition": "색을 더해 그리는 방식. 겹칠수록 밝아져 빛, 불꽃 표현에 쓴다.",
+    "example": "마법진 파티클은 가산 블렌딩으로 그려 겹치는 부분이 하얗게 빛나게 해줘",
+    "tags": [
+      "렌더링"
+    ]
+  },
+  {
+    "id": "vfx-soft-particle",
+    "deck": "vfx",
+    "term": "소프트 파티클",
+    "en": "Soft Particles",
+    "definition": "파티클이 바닥이나 벽과 만나는 부분을 부드럽게 흐려 잘린 경계가 안 보이게 하는 기법.",
+    "example": "연기 파티클에 소프트 파티클을 켜서 바닥과 겹치는 경계선이 보이지 않게 해줘",
+    "tags": [
+      "렌더링"
+    ]
+  },
+  {
+    "id": "vfx-decal",
+    "deck": "vfx",
+    "term": "데칼",
+    "en": "Decal",
+    "definition": "표면 위에 붙여 그리는 이미지. 탄흔, 핏자국, 그을음에 쓴다.",
+    "example": "폭발 지점 바닥에 검게 그을린 데칼을 남기고 10초 뒤 서서히 사라지게 해줘",
+    "tags": [
+      "렌더링"
+    ]
+  },
+  {
+    "id": "vfx-muzzle-flash",
+    "deck": "vfx",
+    "term": "머즐 플래시",
+    "en": "Muzzle Flash",
+    "definition": "총구에서 발사 순간 번쩍이는 불꽃.",
+    "example": "사격마다 2프레임짜리 머즐 플래시와 순간 점광원을 켜줘",
+    "tags": [
+      "무기"
+    ]
+  },
+  {
+    "id": "vfx-aura",
+    "deck": "vfx",
+    "term": "오라",
+    "en": "Aura",
+    "definition": "캐릭터 몸 주위를 감싸는 기운 이펙트.",
+    "example": "각성 상태에서 몸 주위로 붉은 오라가 위로 타오르듯 일렁이게 해줘",
+    "tags": [
+      "캐릭터"
+    ]
+  },
+  {
+    "id": "vfx-charge-vfx",
+    "deck": "vfx",
+    "term": "차징 이펙트",
+    "en": "Charge-up VFX",
+    "definition": "힘을 모으는 동안 빛이 모여들거나 커지는 이펙트.",
+    "example": "차지 공격 중에 빛 입자가 검으로 빨려 들어오고, 단계마다 색이 파랑-보라-흰색으로 바뀌게 해줘",
+    "tags": [
+      "캐릭터"
+    ],
+    "aliases": [
+      "기 모으기"
+    ]
+  },
+  {
+    "id": "vfx-ground-crack",
+    "deck": "vfx",
+    "term": "지면 균열",
+    "en": "Ground Crack",
+    "definition": "강한 충격으로 바닥이 갈라지는 이펙트.",
+    "example": "보스 착지 시 방사형 지면 균열 데칼과 돌 파편 파티클이 튀게 해줘",
+    "tags": [
+      "타격"
+    ]
+  },
+  {
+    "id": "vfx-debris",
+    "deck": "vfx",
+    "term": "파편",
+    "en": "Debris",
+    "definition": "부서진 물체에서 튀는 조각들.",
+    "example": "나무 상자가 부서지면 파편 메시 8개가 물리로 튀고 2초 뒤 축소되며 사라지게 해줘",
+    "tags": [
+      "타격"
+    ]
+  },
+  {
+    "id": "vfx-afterimage",
+    "deck": "vfx",
+    "term": "잔상",
+    "en": "Afterimage / Ghost Trail",
+    "definition": "빠르게 움직인 캐릭터의 모습이 반투명하게 몇 장 남는 효과.",
+    "example": "대시할 때 0.05초 간격으로 파란 반투명 잔상을 4개 남겨줘",
+    "tags": [
+      "모션"
+    ]
+  },
+  {
+    "id": "vfx-speed-lines",
+    "deck": "vfx",
+    "term": "집중선(속도선)",
+    "en": "Speed Lines",
+    "definition": "화면 가장자리나 배경에 그어진 선으로 속도감, 집중을 표현하는 만화식 효과.",
+    "example": "필살기 발동 순간 화면 가장자리에서 중앙으로 모이는 흰 집중선을 0.5초 띄워줘",
+    "tags": [
+      "연출"
+    ],
+    "aliases": [
+      "효과선"
+    ]
+  },
+  {
+    "id": "vfx-lens-flare",
+    "deck": "vfx",
+    "term": "렌즈 플레어",
+    "en": "Lens Flare",
+    "definition": "강한 광원이 카메라 렌즈에 반사되어 생기는 빛 무늬.",
+    "example": "태양을 바라볼 때 은은한 렌즈 플레어를 넣되 과하지 않게 강도 0.3으로 해줘",
+    "tags": [
+      "연출"
+    ]
+  },
+  {
+    "id": "vfx-god-rays",
+    "deck": "vfx",
+    "term": "빛줄기",
+    "en": "God Rays / Light Shafts",
+    "definition": "구름 사이나 창문으로 쏟아지는 빛의 줄기.",
+    "example": "숲 나뭇잎 사이로 빛줄기가 비스듬히 떨어지고 먼지 입자가 떠다니게 해줘",
+    "tags": [
+      "연출"
+    ],
+    "aliases": [
+      "볼류메트릭 라이트"
+    ]
+  },
+  {
+    "id": "vfx-vertex-anim",
+    "deck": "vfx",
+    "term": "버텍스 애니메이션",
+    "en": "Vertex Animation",
+    "definition": "셰이더에서 정점을 움직여 흔들림, 물결 등을 만드는 기법.",
+    "example": "풀숲은 버텍스 애니메이션으로 바람에 흔들리게 하고, 플레이어가 지나가면 옆으로 눕게 해줘",
+    "tags": [
+      "셰이더"
+    ]
+  },
+  {
+    "id": "vfx-mesh-vfx",
+    "deck": "vfx",
+    "term": "메시 이펙트",
+    "en": "Mesh VFX",
+    "definition": "평면 파티클 대신 3D 메시 모양에 텍스처를 입혀 만드는 이펙트. 베기 궤적, 회오리 등에 쓴다.",
+    "example": "횡베기에 초승달 모양 메시 이펙트를 붙이고 UV 스크롤로 휘두르는 방향으로 빛이 흐르게 해줘",
+    "tags": [
+      "기본"
+    ]
+  },
+  {
+    "id": "vfx-hit-spark",
+    "deck": "vfx",
+    "term": "히트 스파크",
+    "en": "Hit Spark",
+    "definition": "타격 순간 터지는 작은 별 모양 섬광. 격투 게임에서 타격 강도별로 크기를 다르게 쓴다.",
+    "example": "약공격은 작은 흰 히트 스파크, 강공격은 큰 노란 히트 스파크로 강도를 구분해줘",
+    "tags": [
+      "타격"
+    ]
+  }
+]

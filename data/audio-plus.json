@@ -1,0 +1,275 @@
+[
+  {
+    "id": "audio-sfx",
+    "deck": "audio",
+    "term": "효과음",
+    "en": "SFX (Sound Effects)",
+    "definition": "발소리, 타격음, 폭발음처럼 행동과 사건에 붙는 소리.",
+    "example": "검 휘두르는 효과음은 바람 가르는 소리와 금속 울림을 섞어줘",
+    "tags": [
+      "기본"
+    ]
+  },
+  {
+    "id": "audio-bgm",
+    "deck": "audio",
+    "term": "배경음악",
+    "en": "BGM",
+    "definition": "장면 분위기를 만드는 배경 음악.",
+    "example": "마을 BGM은 어쿠스틱 기타 위주로 느리고 따뜻하게 만들어줘",
+    "tags": [
+      "기본"
+    ]
+  },
+  {
+    "id": "audio-ambience",
+    "deck": "audio",
+    "term": "앰비언스",
+    "en": "Ambience",
+    "definition": "바람, 새소리, 웅성거림처럼 공간을 채우는 환경음.",
+    "example": "숲 앰비언스로 바람, 새소리, 먼 물소리를 깔고 밤에는 풀벌레 소리로 바꿔줘",
+    "tags": [
+      "기본"
+    ],
+    "aliases": [
+      "환경음"
+    ]
+  },
+  {
+    "id": "audio-foley",
+    "deck": "audio",
+    "term": "폴리",
+    "en": "Foley",
+    "definition": "옷 스치는 소리, 발소리처럼 캐릭터 움직임에 맞춰 녹음하는 생활 효과음.",
+    "example": "갑옷 캐릭터가 움직일 때 금속 마찰 폴리를 걸음에 맞춰 넣어줘",
+    "tags": [
+      "기본"
+    ]
+  },
+  {
+    "id": "audio-layering",
+    "deck": "audio",
+    "term": "사운드 레이어링",
+    "en": "Sound Layering",
+    "definition": "여러 소리를 겹쳐 하나의 풍성한 소리를 만드는 기법. 예: 어택 + 바디 + 테일.",
+    "example": "타격음을 날카로운 어택, 묵직한 저음 바디, 울리는 테일 세 레이어로 만들어줘",
+    "tags": [
+      "기법"
+    ]
+  },
+  {
+    "id": "audio-attack-tail",
+    "deck": "audio",
+    "term": "어택 / 테일",
+    "en": "Attack / Tail",
+    "definition": "소리가 시작하는 순간의 날카로운 부분(어택)과 끝나며 잦아드는 여운(테일).",
+    "example": "총소리 어택은 짧고 강하게, 테일은 실내에선 짧게 야외에선 메아리치게 길게 해줘",
+    "tags": [
+      "기법"
+    ]
+  },
+  {
+    "id": "audio-variation",
+    "deck": "audio",
+    "term": "랜덤 변주",
+    "en": "Randomization / Variation",
+    "definition": "같은 소리가 반복돼 거슬리지 않게 피치, 볼륨, 샘플을 매번 조금씩 바꾸는 것.",
+    "example": "발소리는 샘플 6개 중 랜덤으로 고르고 피치를 ±5% 랜덤 변주해줘",
+    "tags": [
+      "기법"
+    ]
+  },
+  {
+    "id": "audio-ducking",
+    "deck": "audio",
+    "term": "더킹",
+    "en": "Ducking / Sidechain",
+    "definition": "대사나 중요한 소리가 날 때 다른 소리(음악)를 자동으로 줄이는 것.",
+    "example": "대사가 나올 때 BGM을 -8dB 더킹하고 대사가 끝나면 1초 동안 복구해줘",
+    "tags": [
+      "믹싱"
+    ]
+  },
+  {
+    "id": "audio-adaptive-music",
+    "deck": "audio",
+    "term": "어댑티브 음악",
+    "en": "Adaptive Music",
+    "definition": "게임 상황에 따라 실시간으로 변하는 음악.",
+    "example": "탐험 중엔 조용한 음악, 적에게 발각되면 어댑티브 음악으로 드럼이 추가되게 해줘",
+    "tags": [
+      "음악"
+    ],
+    "aliases": [
+      "인터랙티브 음악"
+    ]
+  },
+  {
+    "id": "audio-vertical-layering",
+    "deck": "audio",
+    "term": "수직 레이어링",
+    "en": "Vertical Layering (Stems)",
+    "definition": "음악을 악기별 트랙(스템)으로 나눠 상황에 따라 트랙을 켜고 끄는 방식.",
+    "example": "전투 긴장도에 따라 현악, 타악, 금관 스템을 순서대로 켜는 수직 레이어링을 해줘",
+    "tags": [
+      "음악"
+    ]
+  },
+  {
+    "id": "audio-horizontal-resequencing",
+    "deck": "audio",
+    "term": "수평 재배열",
+    "en": "Horizontal Re-sequencing",
+    "definition": "음악 구간을 이어 붙이는 순서를 상황에 따라 바꾸는 방식.",
+    "example": "보스 페이즈가 바뀌면 다음 마디 끝에서 2페이즈 음악 구간으로 수평 재배열되게 해줘",
+    "tags": [
+      "음악"
+    ]
+  },
+  {
+    "id": "audio-stinger",
+    "deck": "audio",
+    "term": "스팅어",
+    "en": "Stinger",
+    "definition": "사건이 일어날 때 짧게 끼어드는 음악 효과. 예: 발각, 아이템 획득.",
+    "example": "적에게 발각되면 짧은 금관 스팅어를 울리고 바로 전투 음악으로 넘어가게 해줘",
+    "tags": [
+      "음악"
+    ]
+  },
+  {
+    "id": "audio-leitmotif",
+    "deck": "audio",
+    "term": "라이트모티프",
+    "en": "Leitmotif",
+    "definition": "특정 인물이나 장소를 상징하는 반복 선율.",
+    "example": "악당의 라이트모티프를 만들어 등장할 때마다 다른 편곡으로 들리게 해줘",
+    "tags": [
+      "음악"
+    ]
+  },
+  {
+    "id": "audio-loop-music",
+    "deck": "audio",
+    "term": "루프 음악",
+    "en": "Seamless Loop",
+    "definition": "끝과 시작이 자연스럽게 이어져 끊김 없이 반복되는 음악.",
+    "example": "필드 음악을 2분짜리 심리스 루프로 만들어 이음매가 들리지 않게 해줘",
+    "tags": [
+      "음악"
+    ]
+  },
+  {
+    "id": "audio-spatial-audio",
+    "deck": "audio",
+    "term": "공간 음향",
+    "en": "3D / Spatial Audio",
+    "definition": "소리의 방향과 거리를 입체적으로 들려주는 음향.",
+    "example": "적 발소리를 공간 음향으로 처리해 헤드폰으로 위치를 알 수 있게 해줘",
+    "tags": [
+      "공간"
+    ]
+  },
+  {
+    "id": "audio-attenuation",
+    "deck": "audio",
+    "term": "거리 감쇠",
+    "en": "Attenuation",
+    "definition": "소리가 멀어질수록 작아지는 정도.",
+    "example": "폭포 소리는 30m부터 거리 감쇠가 시작되고 80m에서 들리지 않게 해줘",
+    "tags": [
+      "공간"
+    ]
+  },
+  {
+    "id": "audio-occlusion",
+    "deck": "audio",
+    "term": "오클루전",
+    "en": "Occlusion",
+    "definition": "벽 같은 장애물 뒤의 소리가 먹먹하게 들리는 효과.",
+    "example": "벽 뒤에서 나는 전투 소리는 오클루전으로 고음을 깎아 먹먹하게 해줘",
+    "tags": [
+      "공간"
+    ]
+  },
+  {
+    "id": "audio-reverb",
+    "deck": "audio",
+    "term": "리버브",
+    "en": "Reverb",
+    "definition": "공간에서 소리가 반사되어 생기는 울림.",
+    "example": "동굴에 들어가면 리버브를 길게 걸어 발소리가 울리게 해줘",
+    "tags": [
+      "공간"
+    ],
+    "aliases": [
+      "잔향"
+    ]
+  },
+  {
+    "id": "audio-low-pass",
+    "deck": "audio",
+    "term": "로우패스 필터",
+    "en": "Low-Pass Filter",
+    "definition": "고음을 잘라 소리를 먹먹하게 만드는 필터. 물속, 기절 표현에 쓴다.",
+    "example": "물속에 들어가면 전체 사운드에 로우패스 필터를 걸어 먹먹하게 해줘",
+    "tags": [
+      "믹싱"
+    ]
+  },
+  {
+    "id": "audio-ui-sound",
+    "deck": "audio",
+    "term": "UI 사운드",
+    "en": "UI Sounds",
+    "definition": "버튼 클릭, 메뉴 이동, 확인, 취소 등 인터페이스 소리.",
+    "example": "메뉴 이동은 가벼운 틱, 확인은 맑은 딩, 취소는 낮은 톡 소리로 UI 사운드를 구분해줘",
+    "tags": [
+      "기본"
+    ]
+  },
+  {
+    "id": "audio-bark",
+    "deck": "audio",
+    "term": "바크",
+    "en": "Bark",
+    "definition": "전투 중 적이나 동료가 짧게 외치는 상황 대사.",
+    "example": "적이 플레이어를 발견하면 \"저기다!\", 수류탄을 보면 \"피해!\" 같은 바크를 외치게 해줘",
+    "tags": [
+      "대사"
+    ]
+  },
+  {
+    "id": "audio-vo",
+    "deck": "audio",
+    "term": "보이스 오버",
+    "en": "VO (Voice Over)",
+    "definition": "캐릭터 대사 녹음.",
+    "example": "튜토리얼 안내는 차분한 여성 보이스 오버로 하고 자막을 함께 띄워줘",
+    "tags": [
+      "대사"
+    ]
+  },
+  {
+    "id": "audio-mix-bus",
+    "deck": "audio",
+    "term": "믹스 버스",
+    "en": "Mix Bus",
+    "definition": "음악, 효과음, 대사처럼 소리를 그룹으로 묶어 한꺼번에 조절하는 채널.",
+    "example": "설정 메뉴에서 음악, 효과음, 대사 믹스 버스 볼륨을 각각 조절하게 해줘",
+    "tags": [
+      "믹싱"
+    ]
+  },
+  {
+    "id": "audio-sound-priority",
+    "deck": "audio",
+    "term": "보이스 리밋",
+    "en": "Voice Limiting / Priority",
+    "definition": "동시에 재생되는 소리 수를 제한하고 중요한 소리를 우선 재생하는 것.",
+    "example": "총소리가 너무 많이 겹치지 않게 같은 소리는 동시에 4개까지만 재생하고 가까운 것부터 우선해줘",
+    "tags": [
+      "믹싱"
+    ]
+  }
+]

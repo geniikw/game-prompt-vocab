@@ -1,0 +1,259 @@
+[
+  {
+    "id": "animation-anticipation",
+    "deck": "animation",
+    "term": "안티시페이션",
+    "en": "Anticipation",
+    "definition": "본 동작 직전의 반대 방향 준비 동작. 다음에 무엇이 올지 관객에게 미리 알린다.",
+    "example": "내려베기 전 안티시페이션으로 칼을 뒤로 크게 젖히고 3프레임 멈춘다",
+    "tags": [
+      "애니메이션 원칙"
+    ],
+    "aliases": [
+      "예비동작",
+      "앤티시페이션"
+    ]
+  },
+  {
+    "id": "animation-follow-through",
+    "deck": "animation",
+    "term": "팔로스루",
+    "en": "Follow-through",
+    "definition": "본 동작이 끝난 뒤에도 몸·옷·머리카락이 관성으로 계속 움직이는 것.",
+    "example": "베기 후 팔로스루로 칼은 허리 아래까지 흘러가고, 메이드복 리본과 앞치마가 한 박자 늦게 따라온다",
+    "tags": [
+      "애니메이션 원칙"
+    ],
+    "aliases": [
+      "후속동작",
+      "관성 동작"
+    ]
+  },
+  {
+    "id": "animation-overlapping-action",
+    "deck": "animation",
+    "term": "오버래핑 액션",
+    "en": "Overlapping Action",
+    "definition": "몸의 각 부위가 서로 다른 타이밍으로 움직이는 것. 머리카락·망토·치마가 늦게 따라오는 효과.",
+    "example": "공주 기사의 망토와 트윈테일에 오버래핑 액션, 몸보다 2~3프레임 늦게 따라오게",
+    "tags": [
+      "애니메이션 원칙"
+    ],
+    "aliases": [
+      "시차 동작",
+      "드래그"
+    ]
+  },
+  {
+    "id": "animation-squash-and-stretch",
+    "deck": "animation",
+    "term": "스쿼시 앤 스트레치",
+    "en": "Squash and Stretch",
+    "definition": "충격 시 찌그러지고 빠른 움직임에서 늘어나는 변형. 3~4등신 캐릭터의 탄력감에 특히 효과적.",
+    "example": "3등신 캐릭터가 착지할 때 스쿼시 앤 스트레치로 몸이 살짝 납작해졌다 튀어 오른다",
+    "tags": [
+      "애니메이션 원칙"
+    ],
+    "aliases": [
+      "찌그러짐과 늘어남"
+    ]
+  },
+  {
+    "id": "animation-ease-in-ease-out",
+    "deck": "animation",
+    "term": "이즈 인/이즈 아웃",
+    "en": "Ease In / Ease Out",
+    "definition": "동작의 시작과 끝을 천천히, 중간을 빠르게 해 자연스러운 가감속을 주는 것.",
+    "example": "칼을 들어 올릴 땐 이즈 아웃, 내려칠 땐 거의 이즈 없이 한 번에 떨어지게",
+    "tags": [
+      "애니메이션 원칙"
+    ],
+    "aliases": [
+      "슬로우 인/슬로우 아웃",
+      "가감속"
+    ]
+  },
+  {
+    "id": "animation-smear-frame",
+    "deck": "animation",
+    "term": "스매어 프레임",
+    "en": "Smear Frame",
+    "definition": "빠른 동작 사이에 형태를 길게 늘이거나 여러 개 그려 속도감을 주는 한두 장의 프레임.",
+    "example": "칼이 휘둘러지는 1프레임에 스매어 프레임을 넣어 칼날을 부채꼴로 길게 늘린다",
+    "tags": [
+      "애니메이션 원칙"
+    ],
+    "aliases": [
+      "스미어",
+      "잔상 프레임",
+      "모션 블러 프레임"
+    ]
+  },
+  {
+    "id": "animation-arcs",
+    "deck": "animation",
+    "term": "아크",
+    "en": "Arcs",
+    "definition": "자연스러운 움직임은 직선이 아니라 호(곡선)를 그린다는 원칙.",
+    "example": "칼끝이 아크를 그리도록 팔꿈치와 손목 회전을 분리해서 애니메이션",
+    "tags": [
+      "애니메이션 원칙"
+    ],
+    "aliases": [
+      "궤적",
+      "호 그리기"
+    ]
+  },
+  {
+    "id": "animation-hold",
+    "deck": "animation",
+    "term": "홀드",
+    "en": "Hold",
+    "definition": "핵심 포즈에서 잠깐 멈춰 관객이 포즈를 인지하게 하는 것.",
+    "example": "필살기 마지막 포즈를 홀드 20프레임, 그동안 배경만 움직인다",
+    "tags": [
+      "애니메이션 원칙"
+    ],
+    "aliases": [
+      "모션 홀드",
+      "포즈 홀드",
+      "정지 프레임"
+    ]
+  },
+  {
+    "id": "animation-key-pose",
+    "deck": "animation",
+    "term": "키 포즈",
+    "en": "Key Pose",
+    "definition": "동작의 흐름을 결정하는 가장 중요한 포즈들. 사이는 인비트윈으로 채운다.",
+    "example": "베기 동작을 대기-예비-타격-팔로스루 4개 키 포즈로 먼저 잡아줘",
+    "tags": [
+      "애니메이션 원칙"
+    ],
+    "aliases": [
+      "키프레임",
+      "핵심 포즈"
+    ]
+  },
+  {
+    "id": "animation-silhouette",
+    "deck": "animation",
+    "term": "실루엣",
+    "en": "Silhouette",
+    "definition": "검게 칠해도 어떤 동작인지 알아볼 수 있어야 한다는 원칙. 작은 SRPG 캐릭터에 특히 중요.",
+    "example": "3등신 캐릭터라 실루엣이 뭉개지지 않게 칼과 팔을 몸 바깥으로 빼서 포즈 잡기",
+    "tags": [
+      "애니메이션 원칙"
+    ],
+    "aliases": [
+      "실루엣 가독성"
+    ]
+  },
+  {
+    "id": "animation-startup-frames",
+    "deck": "animation",
+    "term": "선딜레이",
+    "en": "Startup Frames",
+    "definition": "버튼 입력 후 공격 판정이 나오기 전까지의 프레임. 예비동작 구간.",
+    "example": "선딜레이 12프레임, 이 동안 칼이 빛나며 차지되는 게 보이게",
+    "tags": [
+      "프레임 데이터"
+    ],
+    "aliases": [
+      "앤티 프레임",
+      "스타트업",
+      "선딜"
+    ]
+  },
+  {
+    "id": "animation-active-frames",
+    "deck": "animation",
+    "term": "액티브 프레임",
+    "en": "Active Frames",
+    "definition": "실제로 공격 판정(히트박스)이 살아 있는 프레임 구간.",
+    "example": "액티브 프레임 3프레임 동안만 슬래시 이펙트와 히트박스를 켠다",
+    "tags": [
+      "프레임 데이터"
+    ],
+    "aliases": [
+      "공격 판정 프레임",
+      "히트 프레임"
+    ]
+  },
+  {
+    "id": "animation-recovery-frames",
+    "deck": "animation",
+    "term": "후딜레이",
+    "en": "Recovery Frames",
+    "definition": "공격 판정이 끝나고 다음 행동이 가능해질 때까지의 프레임. 길수록 반격당하기 쉽다.",
+    "example": "대검 내려베기는 후딜레이 20프레임, 칼을 바닥에서 뽑아 올리는 모션으로 채움",
+    "tags": [
+      "프레임 데이터"
+    ],
+    "aliases": [
+      "리커버리",
+      "후딜",
+      "경직"
+    ]
+  },
+  {
+    "id": "animation-cancel",
+    "deck": "animation",
+    "term": "캔슬",
+    "en": "Cancel",
+    "definition": "현재 동작의 후딜레이를 다른 동작으로 끊고 바로 이어가는 것.",
+    "example": "베기 후딜레이를 회피로 캔슬할 수 있게, 캔슬 가능 구간은 15프레임부터",
+    "tags": [
+      "프레임 데이터"
+    ],
+    "aliases": [
+      "모션 캔슬",
+      "애니메이션 캔슬"
+    ]
+  },
+  {
+    "id": "animation-input-buffer",
+    "deck": "animation",
+    "term": "선입력",
+    "en": "Input Buffer",
+    "definition": "현재 동작이 끝나기 전에 미리 다음 입력을 받아두는 시스템.",
+    "example": "콤보 선입력은 후딜레이 마지막 8프레임 동안 받아준다",
+    "tags": [
+      "프레임 데이터"
+    ],
+    "aliases": [
+      "버퍼",
+      "입력 버퍼"
+    ]
+  },
+  {
+    "id": "animation-invincibility-frames",
+    "deck": "animation",
+    "term": "무적 프레임",
+    "en": "Invincibility Frames",
+    "definition": "회피나 특정 기술 중 공격을 맞지 않는 프레임 구간.",
+    "example": "구르기 3~12프레임은 무적 프레임, 이 구간 캐릭터를 살짝 반투명하게",
+    "tags": [
+      "프레임 데이터"
+    ],
+    "aliases": [
+      "i-frame",
+      "무적 시간"
+    ]
+  },
+  {
+    "id": "animation-hitbox-hurtbox",
+    "deck": "animation",
+    "term": "히트박스 / 허트박스",
+    "en": "Hitbox / Hurtbox",
+    "definition": "히트박스는 공격이 닿는 영역, 허트박스는 맞을 수 있는 영역.",
+    "example": "횡베기 히트박스를 칼 궤적의 부채꼴로, 허트박스는 캐릭터 몸통 캡슐로",
+    "tags": [
+      "프레임 데이터"
+    ],
+    "aliases": [
+      "공격 판정",
+      "피격 판정"
+    ]
+  }
+]

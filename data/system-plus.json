@@ -1,0 +1,305 @@
+[
+  {
+    "id": "system-core-loop",
+    "deck": "system",
+    "term": "코어 루프",
+    "en": "Core Loop",
+    "definition": "플레이어가 계속 반복하는 핵심 행동 순환. 예: 탐험 → 전투 → 보상 → 강화.",
+    "example": "코어 루프는 던전 탐험 → 전리품 획득 → 마을에서 장비 강화 → 더 깊은 던전으로 설계해줘",
+    "tags": [
+      "설계"
+    ]
+  },
+  {
+    "id": "system-meta-progression",
+    "deck": "system",
+    "term": "메타 진행",
+    "en": "Meta Progression",
+    "definition": "한 판이 끝나도 유지되는 영구적인 성장 요소.",
+    "example": "로그라이크에서 죽어도 모은 영혼으로 영구 능력치를 올리는 메타 진행을 넣어줘",
+    "tags": [
+      "진행"
+    ]
+  },
+  {
+    "id": "system-roguelike",
+    "deck": "system",
+    "term": "로그라이크 / 로그라이트",
+    "en": "Roguelike / Roguelite",
+    "definition": "무작위 생성 맵, 영구 죽음이 특징인 장르. 로그라이트는 메타 진행이 있는 완화판.",
+    "example": "로그라이트로 만들어 매 판 맵은 랜덤 생성하고, 죽으면 처음부터지만 해금 요소는 남게 해줘",
+    "tags": [
+      "장르"
+    ]
+  },
+  {
+    "id": "system-soulslike",
+    "deck": "system",
+    "term": "소울라이크",
+    "en": "Soulslike",
+    "definition": "높은 난이도, 스태미나 기반 전투, 패턴 학습, 죽으면 재화를 떨어뜨리는 구조가 특징인 액션 장르.",
+    "example": "소울라이크처럼 죽으면 경험치를 그 자리에 떨어뜨리고 다시 가서 주워야 하게 해줘",
+    "tags": [
+      "장르"
+    ]
+  },
+  {
+    "id": "system-hack-and-slash",
+    "deck": "system",
+    "term": "핵 앤 슬래시",
+    "en": "Hack and Slash",
+    "definition": "많은 적을 화려한 콤보로 베어 나가는 액션 장르.",
+    "example": "핵 앤 슬래시 느낌으로 한 번에 적 20명을 쓸어버리는 광역 콤보를 만들어줘",
+    "tags": [
+      "장르"
+    ]
+  },
+  {
+    "id": "system-character-action",
+    "deck": "system",
+    "term": "캐릭터 액션",
+    "en": "Character Action",
+    "definition": "스타일리시한 콤보와 높은 조작 숙련도를 강조하는 3D 액션 장르.",
+    "example": "캐릭터 액션 게임처럼 콤보 다양성에 따라 스타일 랭크가 D부터 S까지 오르게 해줘",
+    "tags": [
+      "장르"
+    ]
+  },
+  {
+    "id": "system-arpg",
+    "deck": "system",
+    "term": "액션 RPG",
+    "en": "ARPG",
+    "definition": "실시간 액션 전투와 RPG 성장 요소를 합친 장르.",
+    "example": "액션 RPG로 만들고 레벨업마다 스킬 트리 포인트를 1개 주게 해줘",
+    "tags": [
+      "장르"
+    ]
+  },
+  {
+    "id": "system-tps-fps",
+    "deck": "system",
+    "term": "TPS / FPS",
+    "en": "Third / First Person Shooter",
+    "definition": "3인칭(캐릭터 뒤에서) / 1인칭(캐릭터 눈으로) 시점의 슈팅 게임.",
+    "example": "기본은 TPS 숄더 뷰로 하고 정조준하면 FPS 시점으로 전환되게 해줘",
+    "tags": [
+      "장르"
+    ]
+  },
+  {
+    "id": "system-skill-tree",
+    "deck": "system",
+    "term": "스킬 트리",
+    "en": "Skill Tree",
+    "definition": "스킬을 나무 가지처럼 선행 조건에 따라 해금하는 성장 구조.",
+    "example": "검술, 방어, 마법 세 갈래 스킬 트리를 만들고 각 끝에 궁극기를 둬줘",
+    "tags": [
+      "성장"
+    ]
+  },
+  {
+    "id": "system-loot",
+    "deck": "system",
+    "term": "루트(전리품)",
+    "en": "Loot",
+    "definition": "적이나 상자에서 얻는 아이템. 등급과 랜덤 옵션이 붙는 경우가 많다.",
+    "example": "적 처치 시 등급별 색이 다른 빛기둥과 함께 루트가 떨어지게 해줘",
+    "tags": [
+      "보상"
+    ]
+  },
+  {
+    "id": "system-rarity",
+    "deck": "system",
+    "term": "레어리티(등급)",
+    "en": "Rarity Tier",
+    "definition": "아이템 희귀도 단계. 흔히 일반-고급-희귀-영웅-전설 순.",
+    "example": "아이템 레어리티를 회색-초록-파랑-보라-주황 5등급으로 나누고 드롭률을 정해줘",
+    "tags": [
+      "보상"
+    ]
+  },
+  {
+    "id": "system-drop-rate",
+    "deck": "system",
+    "term": "드롭률",
+    "en": "Drop Rate",
+    "definition": "아이템이 떨어질 확률.",
+    "example": "전설 아이템 드롭률은 0.5%, 대신 50번 안 나오면 확정으로 주는 천장을 넣어줘",
+    "tags": [
+      "보상"
+    ]
+  },
+  {
+    "id": "system-pity",
+    "deck": "system",
+    "term": "천장",
+    "en": "Pity System",
+    "definition": "일정 횟수 이상 실패하면 보상을 확정으로 주는 장치.",
+    "example": "뽑기 80회에 천장을 두고 남은 횟수를 UI에 표시해줘",
+    "tags": [
+      "보상"
+    ]
+  },
+  {
+    "id": "system-progression-curve",
+    "deck": "system",
+    "term": "성장 곡선",
+    "en": "Progression Curve",
+    "definition": "레벨이나 시간에 따라 필요 경험치, 능력치가 어떻게 늘어나는지 그린 곡선.",
+    "example": "레벨당 필요 경험치는 1.15배씩 늘어나는 지수 성장 곡선으로 해줘",
+    "tags": [
+      "밸런스"
+    ]
+  },
+  {
+    "id": "system-difficulty-curve",
+    "deck": "system",
+    "term": "난이도 곡선",
+    "en": "Difficulty Curve",
+    "definition": "게임 진행에 따라 난이도가 올라가는 모양.",
+    "example": "난이도 곡선을 완만하게 올리다가 각 보스에서 한 번씩 튀어 오르게 설계해줘",
+    "tags": [
+      "밸런스"
+    ]
+  },
+  {
+    "id": "system-dda",
+    "deck": "system",
+    "term": "동적 난이도 조절",
+    "en": "Dynamic Difficulty Adjustment (DDA)",
+    "definition": "플레이어 실력에 맞춰 난이도를 자동으로 바꾸는 것.",
+    "example": "같은 구간에서 3번 죽으면 적 공격력을 10% 낮추는 동적 난이도 조절을 몰래 넣어줘",
+    "tags": [
+      "밸런스"
+    ]
+  },
+  {
+    "id": "system-risk-reward",
+    "deck": "system",
+    "term": "리스크 리턴",
+    "en": "Risk-Reward",
+    "definition": "위험한 선택일수록 큰 보상을 주는 설계.",
+    "example": "체력이 낮을수록 공격력이 오르는 리스크 리턴 장비를 만들어줘",
+    "tags": [
+      "설계"
+    ]
+  },
+  {
+    "id": "system-sink-faucet",
+    "deck": "system",
+    "term": "재화 수급과 소모",
+    "en": "Faucet and Sink",
+    "definition": "게임 경제에서 재화가 들어오는 곳(파우셋)과 빠져나가는 곳(싱크). 균형이 맞아야 인플레이션이 없다.",
+    "example": "골드 파우셋은 몬스터 사냥과 퀘스트, 싱크는 장비 수리비와 강화비로 두고 균형을 맞춰줘",
+    "tags": [
+      "경제"
+    ]
+  },
+  {
+    "id": "system-gacha",
+    "deck": "system",
+    "term": "가챠",
+    "en": "Gacha",
+    "definition": "재화를 써서 무작위로 캐릭터나 아이템을 뽑는 시스템.",
+    "example": "가챠 결과 연출에서 최고 등급이면 화면이 무지개빛으로 바뀌는 연출을 넣어줘",
+    "tags": [
+      "수익화"
+    ],
+    "aliases": [
+      "뽑기"
+    ]
+  },
+  {
+    "id": "system-battle-pass",
+    "deck": "system",
+    "term": "배틀 패스",
+    "en": "Battle Pass",
+    "definition": "시즌 동안 플레이로 단계를 올리며 보상을 받는 구조. 유료 트랙이 따로 있다.",
+    "example": "50단계 배틀 패스를 만들고 무료 트랙과 유료 트랙 보상을 나눠줘",
+    "tags": [
+      "수익화"
+    ]
+  },
+  {
+    "id": "system-daily",
+    "deck": "system",
+    "term": "일일 퀘스트",
+    "en": "Daily Quest",
+    "definition": "매일 초기화되는 짧은 과제. 재방문을 유도한다.",
+    "example": "일일 퀘스트 3개를 매일 새벽 4시에 초기화하고 모두 깨면 보너스 상자를 줘",
+    "tags": [
+      "리텐션"
+    ]
+  },
+  {
+    "id": "system-permadeath",
+    "deck": "system",
+    "term": "영구 죽음",
+    "en": "Permadeath",
+    "definition": "캐릭터가 죽으면 되살릴 수 없는 규칙.",
+    "example": "하드코어 모드에서는 영구 죽음을 적용해 죽으면 세이브가 삭제되게 해줘",
+    "tags": [
+      "규칙"
+    ]
+  },
+  {
+    "id": "system-procedural",
+    "deck": "system",
+    "term": "절차적 생성",
+    "en": "Procedural Generation",
+    "definition": "규칙과 난수로 맵, 아이템 등을 자동 생성하는 것.",
+    "example": "던전 방을 절차적 생성으로 10~15개 이어 붙이되 보스방은 항상 가장 먼 곳에 두게 해줘",
+    "tags": [
+      "기술"
+    ],
+    "aliases": [
+      "PCG"
+    ]
+  },
+  {
+    "id": "system-state-machine",
+    "deck": "system",
+    "term": "상태 머신",
+    "en": "Finite State Machine (FSM)",
+    "definition": "대기, 순찰, 추격, 공격처럼 정해진 상태 사이를 조건에 따라 오가는 구조. AI와 애니메이션에 쓴다.",
+    "example": "적 AI를 상태 머신으로 만들어 순찰 → 발견 → 추격 → 공격 → 놓치면 수색 상태로 가게 해줘",
+    "tags": [
+      "기술"
+    ]
+  },
+  {
+    "id": "system-behavior-tree",
+    "deck": "system",
+    "term": "비헤이비어 트리",
+    "en": "Behavior Tree",
+    "definition": "조건과 행동을 나무 구조로 배치해 AI의 판단을 정하는 방식.",
+    "example": "보스 AI를 비헤이비어 트리로 만들어 거리가 멀면 돌진, 가까우면 베기, 체력 낮으면 회복을 고르게 해줘",
+    "tags": [
+      "기술"
+    ]
+  },
+  {
+    "id": "system-vertical-slice",
+    "deck": "system",
+    "term": "버티컬 슬라이스",
+    "en": "Vertical Slice",
+    "definition": "게임의 일부 구간을 최종 품질로 완성해 전체 모습을 보여 주는 시제품.",
+    "example": "첫 던전 하나를 버티컬 슬라이스로 아트, 사운드, 전투까지 최종 품질로 만들어줘",
+    "tags": [
+      "제작"
+    ]
+  },
+  {
+    "id": "system-mvp-proto",
+    "deck": "system",
+    "term": "프로토타입",
+    "en": "Prototype",
+    "definition": "핵심 재미를 빠르게 확인하려고 만드는 거친 시험판.",
+    "example": "아트 없이 큐브로만 검술 전투 프로토타입을 만들어 조작감부터 확인하자",
+    "tags": [
+      "제작"
+    ]
+  }
+]

@@ -1,0 +1,141 @@
+[
+  {
+    "id": "gamefeel-hitstop",
+    "deck": "gamefeel",
+    "term": "히트스톱",
+    "en": "Hitstop",
+    "definition": "공격이 맞는 순간 공격자와 피격자가 몇 프레임 멈추는 연출. 타격감의 핵심.",
+    "example": "크리티컬 히트 시 히트스톱 8프레임, 일반 히트는 3프레임",
+    "tags": [
+      "타격감 연출"
+    ],
+    "aliases": [
+      "역경직",
+      "히트 랙(Hit Lag)",
+      "프리즈 프레임"
+    ]
+  },
+  {
+    "id": "gamefeel-hit-reaction",
+    "deck": "gamefeel",
+    "term": "히트 리액션",
+    "en": "Hit Reaction",
+    "definition": "공격을 맞은 쪽이 움찔하거나 밀려나는 반응 모션.",
+    "example": "약공격은 머리만 젖히는 히트 리액션, 강공격은 몸 전체가 뒤로 밀려남",
+    "tags": [
+      "타격감 연출"
+    ],
+    "aliases": [
+      "피격 모션",
+      "경직 모션",
+      "플린치(Flinch)"
+    ]
+  },
+  {
+    "id": "gamefeel-knockback",
+    "deck": "gamefeel",
+    "term": "넉백",
+    "en": "Knockback",
+    "definition": "공격에 맞아 뒤로 밀려나거나 날아가는 것.",
+    "example": "피니셔 넉백으로 적이 화면 끝까지 튕겨 나가 벽에 부딪힌다",
+    "tags": [
+      "타격감 연출"
+    ],
+    "aliases": [
+      "밀려남",
+      "날려보내기"
+    ]
+  },
+  {
+    "id": "gamefeel-stagger",
+    "deck": "gamefeel",
+    "term": "스태거",
+    "en": "Stagger",
+    "definition": "균형을 잃고 비틀거리며 잠시 행동 불능이 되는 상태.",
+    "example": "패리 성공 시 적이 스태거 상태로 2초간 비틀거리며 머리 위에 별 아이콘",
+    "tags": [
+      "타격감 연출"
+    ],
+    "aliases": [
+      "비틀거림",
+      "경직",
+      "그로기"
+    ]
+  },
+  {
+    "id": "gamefeel-screen-shake",
+    "deck": "gamefeel",
+    "term": "화면 흔들림",
+    "en": "Screen Shake",
+    "definition": "강한 타격 순간 카메라를 짧게 흔들어 충격을 전달하는 연출.",
+    "example": "강공격 히트 시 화면 흔들림 0.15초, 진폭은 작게",
+    "tags": [
+      "타격감 연출"
+    ],
+    "aliases": [
+      "카메라 셰이크",
+      "흔들기"
+    ]
+  },
+  {
+    "id": "gamefeel-hit-flash",
+    "deck": "gamefeel",
+    "term": "히트 플래시",
+    "en": "Hit Flash",
+    "definition": "맞은 캐릭터를 1~2프레임 하얗게(또는 빨갛게) 번쩍이게 하는 연출.",
+    "example": "피격 시 적 스프라이트에 히트 플래시 2프레임 하얗게",
+    "tags": [
+      "타격감 연출"
+    ],
+    "aliases": [
+      "피격 점멸",
+      "화이트 플래시"
+    ]
+  },
+  {
+    "id": "gamefeel-slash-trail",
+    "deck": "gamefeel",
+    "term": "슬래시 트레일",
+    "en": "Slash Trail",
+    "definition": "칼이 지나간 궤적을 따라 남는 띠 모양 이펙트.",
+    "example": "푸른 슬래시 트레일이 초승달 모양으로 남았다 0.2초 뒤 사라짐",
+    "tags": [
+      "타격감 연출"
+    ],
+    "aliases": [
+      "검기",
+      "칼 궤적 이펙트",
+      "웨폰 트레일"
+    ]
+  },
+  {
+    "id": "gamefeel-impact-frame",
+    "deck": "gamefeel",
+    "term": "임팩트 프레임",
+    "en": "Impact Frame",
+    "definition": "맞는 순간 1~3프레임을 흑백 반전이나 고대비 실루엣으로 바꾸는 애니메식 연출.",
+    "example": "필살기 마지막 일격에 흑백 반전 임팩트 프레임 2프레임",
+    "tags": [
+      "타격감 연출"
+    ],
+    "aliases": [
+      "임팩트 컷",
+      "반전 프레임"
+    ]
+  },
+  {
+    "id": "gamefeel-slow-motion",
+    "deck": "gamefeel",
+    "term": "슬로우 모션",
+    "en": "Slow Motion",
+    "definition": "결정적 순간 게임 속도를 느리게 하는 연출.",
+    "example": "마지막 적을 처치하는 순간 슬로우 모션 0.3배속으로 1초",
+    "tags": [
+      "타격감 연출"
+    ],
+    "aliases": [
+      "불릿 타임",
+      "타임 다이레이션"
+    ]
+  }
+]
